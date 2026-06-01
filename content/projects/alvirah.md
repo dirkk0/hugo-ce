@@ -3,7 +3,7 @@ title: "Alvirah And Willy"
 date: 2022-06-08T11:00:00+02:00
 draft: false
 image: ../img/alvirah.png
-tags: ['Javascript', 'A-Frame']
+tags: ['JavaScript', 'A-Frame']
 description: "Alvirah and Willy is an immersive augmented-reality and browser experience set in a Spanish grandmother's bookshelf, where a plague of woodworm threatens her mystery books."
 ---
 Immersive Augmented Reality and browser experience.
