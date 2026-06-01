@@ -5,7 +5,7 @@
     <loc>//localhost:1313/de/about/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="//localhost:1313/about/"
                 />
     <xhtml:link
@@ -14,11 +14,22 @@
                 href="//localhost:1313/de/about/"
                 />
   </url><url>
-    <loc>//localhost:1313/de/</loc>
-    <lastmod>2020-01-01T11:00:00+02:00</lastmod>
+    <loc>//localhost:1313/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
+                href="//localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="//localhost:1313/de/categories/"
+                />
+  </url><url>
+    <loc>//localhost:1313/de/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
                 href="//localhost:1313/"
                 />
     <xhtml:link
@@ -28,10 +39,9 @@
                 />
   </url><url>
     <loc>//localhost:1313/de/projects/</loc>
-    <lastmod>2020-01-01T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="//localhost:1313/projects/"
                 />
     <xhtml:link
@@ -40,22 +50,10 @@
                 href="//localhost:1313/de/projects/"
                 />
   </url><url>
-    <loc>//localhost:1313/de/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/categories/"
-                />
-  </url><url>
     <loc>//localhost:1313/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="//localhost:1313/tags/"
                 />
     <xhtml:link

@@ -4,9 +4,8 @@
     <title>Home on Curious Electric Website</title>
     <link>//localhost:1313/de/</link>
     <description>Recent content in Home on Curious Electric Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate></lastBuildDate>
     <atom:link href="//localhost:1313/de/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
