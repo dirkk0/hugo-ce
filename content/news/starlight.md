@@ -10,5 +10,5 @@ We are grateful to receive funding for the awesome STARLIGHT project from [Film-
 
 "STARLIGHT is an interactive star map with gamification applications that is being developed as a web application.""
 
-![first draft of a new way to imagine our neighborhood in the universe](../img/starlight.png#small)
+![first draft of a new way to imagine our neighborhood in the universe](../../img/starlight.png#small)
 <!-- <img src="/../img/starlight.png" style="border: 1px solid black; width: 80%;" alt="first draft of a new way to imagine our neighborhood in the universe"> -->

@@ -1,0 +1,19 @@
+{{- /*
+  Image render hook. Content authors reference images loosely (../img/x.png,
+  ../../img/x.png, etc.) which only resolve at one page depth. Since the news
+  list inlines each post's full .Content, the same relative path breaks there.
+  Fix: rewrite every local image to a baseURL-absolute /img/<file> URL so it
+  resolves identically on list and detail pages regardless of depth.
+  External URLs (http/https/protocol-relative) pass through untouched.
+  The trailing #small / #verysmall fragment is preserved — CSS sizes on it
+  via img[src$="#small"].
+*/ -}}
+{{- $dest := .Destination -}}
+{{- if or (hasPrefix $dest "http://") (hasPrefix $dest "https://") (hasPrefix $dest "//") -}}
+<img src="{{ $dest }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- else -}}
+{{- $u := urls.Parse $dest -}}
+{{- $src := printf "img/%s" (path.Base $u.Path) | relURL -}}
+{{- with $u.Fragment }}{{ $src = printf "%s#%s" $src . }}{{ end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- end -}}

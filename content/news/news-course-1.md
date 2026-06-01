@@ -8,6 +8,6 @@ We are now offering Godot Game Engine courses for small teams, both in person an
 
 For more information and inquiries please send an email to info@curious-electric.com.
 
-![godot engine homepage screenshot](../img/godot-1.png#small)
+![godot engine homepage screenshot](../../img/godot-1.png#small)
 
 <!-- https://godotengine.org/ -->

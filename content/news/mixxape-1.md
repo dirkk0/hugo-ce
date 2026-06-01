@@ -6,4 +6,4 @@ draft: false
 
 [mixxape](https://mixxape.com) soft launches! Register with the newsletter to be part of the beta program.
 
-![the friendly mixxape](../img/mixxape-1.png#small)
+![the friendly mixxape](../../img/mixxape-1.png#small)
