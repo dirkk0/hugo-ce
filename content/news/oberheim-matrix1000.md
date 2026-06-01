@@ -1,6 +1,6 @@
 ---
 title: "A browser-based editor for the Oberheim Matrix 1000"
-date: 2026-05-20T11:00:00+02:00
+date: 2026-02-20T11:00:00+02:00
 draft: false
 description: "A real-time, browser-based editor for the Oberheim Matrix 1000, built largely with AI (Claude) — Web MIDI speaking SysEx to a 1984 analog synth, no install."
 image: ../img/oberheim-matrix1000.png

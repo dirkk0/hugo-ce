@@ -1,6 +1,6 @@
 ---
 title: "Oberheim Matrix 1000 Editor"
-date: 2026-05-20
+date: 2026-02-20
 draft: false
 image: ../img/oberheim-matrix1000.png
 tags: ['JavaScript', 'WebMIDI', 'Audio', 'AI']
