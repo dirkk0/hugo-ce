@@ -1,11 +1,16 @@
 {{ partial "header.html" . }}
 
-taxonomy / tag.html
+<main class="fadein">
+  <h1>Tagged: {{ .Title }}</h1>
 
-<ul>
+  <ul class="news-list">
     {{ range .Data.Pages }}
     <li>
-        <a href="{{.RelPermalink}}">{{ .Title }}</a>
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
     </li>
     {{ end }}
-</ul>
+  </ul>
+</main>
+
+{{ partial "footer.html" . }}
