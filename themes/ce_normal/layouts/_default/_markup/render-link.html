@@ -1,10 +1,10 @@
 {{- /* Root-relative internal links (/projects/…, /about/…) get the baseURL
-       prepended via relURL, so they resolve under /w/v2/ at any page depth
+       prepended via relURL, so they resolve under /w/v1/ at any page depth
        (incl. the news list that inlines each post's full .Content). External
        (http), mailto:, and anchor links pass through untouched. */ -}}
 {{- $d := .Destination -}}
 {{- $href := $d -}}
 {{- /* NB: relURL only adds the baseURL subpath when the path has NO leading
-       slash, so trim it first ("/projects/x" -> "projects/x" -> "/w/v2/projects/x"). */ -}}
+       slash, so trim it first ("/projects/x" -> "projects/x" -> "/w/v1/projects/x"). */ -}}
 {{- if strings.HasPrefix $d "/" }}{{ $href = strings.TrimPrefix "/" $d | relURL }}{{ end -}}
 <a href="{{ $href | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix $d "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>

@@ -1,4 +1,4 @@
-# imprint
+# Impressum
 
     Curious Electric GmbH
     Rhodiusstr. 11
@@ -16,12 +16,10 @@
     Trotz sorgfaeltiger inhaltlicher Kontrolle uebernehmen wir keine Haftung fuer die Inhalte externer Links.
     Fuer den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich.
 
-# privacy
+# Datenschutz
 
-No cookies, and no personal tracking. For visitor stats we use [GoatCounter](https://www.goatcounter.com) — open-source, cookieless, privacy-first, anonymous and aggregate.
+Keine Cookies und keine persönliche Nachverfolgung. Für Besucherstatistiken nutzen wir [GoatCounter](https://www.goatcounter.com) – quelloffen, ohne Cookies, datenschutzorientiert, anonym und aggregiert.
 
-<!-- We run a little JavaScript (for the analytics above and small touches like the animated bot), but nothing that profiles you. -->
+# Kontakt
 
-# contact
-
-Please send an email to dirkk@curious-electric.com - thanks!
+Einfach eine Email an dirkk@curious-electric.com - danke!

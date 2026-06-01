@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# baseURL comes from config.yaml (absolute https://curious-electric.com/w/v2/)
+# baseURL comes from config.yaml (absolute https://curious-electric.com/w/v1/)
 # so canonical/OpenGraph tags are absolute. No -b override.
 
 # hugo --gc --minify
@@ -16,5 +16,5 @@ echo "path: $CONF_PATH"
 # via https://robot.unipv.it/toolleeo/2021/09/using-rsync-to-update-a-remote-hugo-website/
 
 rsync -r --delete --checksum public/ upload/
-rsync -avztP  -e "ssh" upload/ $CONF_PATH/w/v2/
+rsync -avztP  -e "ssh" upload/ $CONF_PATH/w/v1/
 
