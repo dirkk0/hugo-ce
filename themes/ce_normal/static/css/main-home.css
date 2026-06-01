@@ -52,6 +52,11 @@ nav a.active {
     color: white;
 }
 
+/* language switch separator on the dark home nav bar */
+.lang-sep {
+    color: #5e7184;
+}
+
 
 article {
     /* font-family: "Poppins"; */
