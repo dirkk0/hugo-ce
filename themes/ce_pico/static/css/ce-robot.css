@@ -1,0 +1,40 @@
+/* Dark color scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+/* @media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --main-dirk: yellow;
+  }
+} */
+
+/* Dark color scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --main-dirk: white;
+}
+
+/* This thing you replace with page styles */
+#corner-logo {
+  fill: var(--pico-primary-underline);
+  /* position: fixed; */
+  top: 5px;
+  left: 5px;
+  width: 100px;
+}
+
+/* This (and <div class="page">) you remove completely */
+/* (it's just to test fro scrollable page) */
+.page {
+  height: 300vh;
+}
+
+/* This you keep but change the HEX color for your need */
+
+#corner-logo .filled {
+  fill: var(--main-dirk);
+  /* fill: white; */
+}
+#corner-logo .stoked {
+  stroke-width: 0.5;
+  fill: none;
+  stroke: var(--main-dirk);
+}

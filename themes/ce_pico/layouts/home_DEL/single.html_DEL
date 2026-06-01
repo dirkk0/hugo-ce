@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+<i><small>single template</small></i>
+
+<main class="fadein">
+  <div class="article-meta">
+    <h1>{{ .Title | markdownify }}</h1>
+    <!-- {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }} -->
+    {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+  </div>
+  <article>
+    {{ .Content }}
+  </article>
+</main>
+
+
+{{ partial "footer.html" . }}

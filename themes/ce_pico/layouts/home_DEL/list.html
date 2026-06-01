@@ -1,0 +1,60 @@
+{{ partial "header-home.html" . }}
+<!-- normal list (home) template -->
+
+<main class="fadein">
+  <article>
+    {{ .Content }}
+  </article>
+
+  <div id="a1">
+
+    {{ $pages := .Pages }}
+
+    <div id="a2">
+      Latest news:
+      <ul>
+        {{ range first 3 (where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink) }}
+        <li>
+          <span class="date">{{ .Date.Format "Jan 2006" }}</span>
+          <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        </li>
+        {{ end }}
+      </ul>
+      <a href="news">All news</a>.
+
+      <hr>
+      Recent projects:
+      <ul>
+        {{ range first 3 (where (where .Site.RegularPages "Section" "projects") "Permalink" "!=" .Page.Permalink) }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        </li>
+        {{ end }}
+      </ul>
+      <a href="projects">All projects</a>.
+      <br><br>
+      <!-- <i><small><a href="https://curious-electric.com/w/v0/">Where's the old page?</a></small></i>. -->
+
+      <hr>
+      <div class="description">Subscribe to our low volume newsletter without spam.<br></div>
+      <form id="subscribe-form" method="post" action="https://tinyletter.com/curiouselectric">
+        <div class="email-group">
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" id="email" name="email" value="" placeholder='email@example.com' />
+          <button class="button" type="submit">Subscribe</button>
+        </div>
+        <!-- <div class="privacy-policy">
+          <p av:i18n="block"><a href="https://www.intuit.com/privacy/statement/">TinyLetter's Privacy Policy</a></p>
+        </div> -->
+      </form>
+      <hr>
+      <br><br>
+      <a href="imprint/">contact and imprint</a>
+    </div>
+  </div>
+
+
+</main>
+
+
+{{ partial "footer.html" . }}

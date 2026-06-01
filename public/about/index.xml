@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Curious Electric Website</title>
+    <link>//localhost:1313/about/</link>
+    <description>Recent content in About on Curious Electric Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/services/</guid>
+      <description>Services Consulting Creating ideas in Innovation and Digital Transformation. Making sense of Technobabble and dent hype cycles.&#xA;Teaching We research trends and technologies, publish our insights and educate in innovation technology.&#xA;Implementing Purposeful Development of innovation projects and efficient cooperation with partners in subprojects.&#xA;Prototyping We create prototypes to endeavour new technologies. We start where presentations fail, inspire and deliver useful innovation.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/team/</guid>
+      <description>Team Hans Bickhofe SysOps and QA&#xA;Maintainer by day, maker by night. The trained electrical engineer handles huge server racks and small IoT devices and is a dab hand with the soldering iron. As a software engineer he masters client/server applications with enough Zen to dig into bugs of cutting edge technologies like AR.&#xA;Peter Bickhofe Game Design and Art Direction&#xA;One Man Army. The Devigner startet out with graphic design and typography, then somehow forgot to stop learning.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/misc/</guid>
+      <description>Employment Opportunities Unfortunately, there are no open positions at the moment.&#xA;Analytics This web site does not use Cookies or JavaScript.</description>
+    </item>
+  </channel>
+</rss>

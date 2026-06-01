@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, minimum-scale=0.86">
+
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+  <!-- Pico.css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
+  <!-- Custom styles for this example -->
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}" />
+
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
+  <!-- <link rel="stylesheet" href="{{ "css/font.css" | relURL }}" /> -->
+  <!-- <link rel="stylesheet" href="{{ "css/main-home.css" | relURL }}" /> -->
+  <!-- <link rel="stylesheet" href="{{ "css/font.css" | relURL }}" /> -->
+  <link rel="stylesheet" href="{{ "css/ce-robot.css" | relURL }}" />
+  <!-- <link rel="stylesheet" href="{{ "css/override.css" | relURL }}" /> -->
+
+
+</head>
+
+<body>
+  <!-- {{ trim .Page.RelPermalink "/"}} ,
+  {{ .RelPermalink}} , 
+  {{ eq "/about/" "==" .RelPermalink}} , 
+  {{ $currentPage := . }} -->
+
+
+
+
+  <header>
+
+  <nav>
+    <ul>
+      <li>
+        <svg id="corner-logo" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" xml:space="preserve">
+          <defs>
+              <mask id="corner-logo-eyes-clip">
+                  <rect x="0" y="0" width="50" height="50" fill="#ffffff"/>
+                  <ellipse class="logo-eye" cx="26.6" cy="23" rx="1.5" ry="3.5" fill="#000000"/>
+                  <ellipse class="logo-eye" cx="33.8" cy="23.4" rx="1.4" ry="3.1" fill="#000000"/>
+              </mask>
+              <mask id="corner-logo-signal-clip">
+                  <rect x="0" y="0" width="50" height="50" fill="#ffffff"/>
+                  <polygon points="12.8,12.8 6.2,12.2 11.4,20.6 21.1,9.3" fill="#000000" />
+              </mask>
+          </defs>
+          <g class="logo-head">
+              <path class="filled" mask="url(#corner-logo-eyes-clip)" d="M17.4,33.5l17.7-0.2c1.7,0,3.1-1.5,3.1-3.2l-0.1-9.8c0-1.7-1.5-3.1-3.2-3.1l-17.7,0.2c-1.7,0-3.1,1.5-3.1,3.2h0c1,0.1,1.7,0.9,1.6,1.9l-0.6,7.3l-0.9,0l0,0.6C14.3,32.1,15.7,33.5,17.4,33.5z"/>
+              <path class="filled" d="M14.5,29.1l-0.9-0.1c-0.7,0-1.2-0.6-1.2-1.3l0.4-6.6l0.7,0c0.8,0,1.4,0.7,1.3,1.5L14.5,29.1z"/>
+              <g class="antenna">
+                  <g mask="url(#corner-logo-signal-clip)" class="signal stoked">
+                      <circle style="opacity: 0" cx="12.8" cy="12.8" r="1.6"/>
+                      <circle style="opacity: 0" cx="12.8" cy="12.8" r="2.6"/>
+                      <circle style="opacity: 0" cx="12.8" cy="12.8" r="3.6"/>
+                  </g>
+                  <rect class="antenna-rect filled" x="12.9" y="12.8" transform="matrix(0.9978 -6.554418e-02 6.554418e-02 0.9978 -1.0578 0.8954)" width="0.5" height="0"/>
+                  <circle class="antenna-ball filled" cx="12.8" cy="12.8" r="0"/>
+              </g>
+          </g>
+        </svg></li>
+    </ul>
+    <ul>
+      <!-- <li class="push-left">
+        <a href="/" class="logo">
+        <img id="old-bot" src="{{ "img/bot.svg" | relURL }}" alt="Curious Electric">
+        </a>
+      </li> -->
+
+      <!-- <li>
+        <a href="/tags">tags</a>
+      </li> -->
+
+
+      {{ range .Site.Menus.lazymain }}
+      <li>
+        <a href="{{ .URL | relURL }}" class="{{if or ($currentPage.IsMenuCurrent "lazymain" .)
+          ($currentPage.HasMenuCurrent "lazymain" .) }}active{{end}}">{{ .Name }}</a>
+        {{ end }}
+      </li>
+
+      <li>
+        <!-- <div id="theme-switch">
+          <span id="icon-moon" style="display: none">🌙</span>
+          <span id="icon-sun">☀️</span>
+        </div> -->
+
+
+      </li>
+
+    </ul>
+
+    <ul>
+      <li>
+        <details role="list" dir="rtl">
+          <summary aria-haspopup="listbox" role="link" class="contrast">
+            Theme
+          </summary>
+          <ul role="listbox">
+            <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+            <li><a href="#" data-theme-switcher="light">Light</a></li>
+            <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+    
+  </nav>
+
+</header>
+
+  <!-- header (default) -->
+
+
+<div id="overlay"></div>
+
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src="{{ "js/ce-robot.js" | relURL }}"></script>

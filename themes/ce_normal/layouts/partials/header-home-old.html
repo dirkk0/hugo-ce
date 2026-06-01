@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, minimum-scale=0.86">
+
+  <meta name="description" content="A studio creating products and services with meaning, love, and brain.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- <meta property="fb:admins" content="dirk.krause"/> -->
+  <meta name="Keywords" content="innovation,prototype,ThreeJS,A-Frame,AR,VR,MR" />
+
+  <meta property="fb:app_id" content="966242223397117" />
+  <meta property="og:image" content="https://curious-electric.com/w/v1/ico/preview.png" />
+  <meta property="og:site_name" content="Curious Electric Website" />
+  <meta property="og:title" content="Curious Electric" />
+  <meta property="og:url" content="https://curious-electric.com/w/v1/index.html" />
+  <meta property="og:description" content="A studio creating products and services with meaning, love, and brain." />
+  <meta property="og:type" content="website" />
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@@curious-3lectric">
+  <meta name="twitter:title" content="This is Curious&nbsp;Electric.">
+  <meta name="twitter:description" content="A studio creating products and services with meaning, love, and brain.">
+  <meta name="twitter:creator" content="@dirkk">
+  <meta name="twitter:image" content="https://curious-electric.com/w/v1/ico/preview.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+  <link rel="manifest" href="ico/site.webmanifest">
+  <link rel="mask-icon" href="ico/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- <link rel="icon" href="data:;base64,iVBORw0KGgo=" /> -->
+
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/main-home.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/font.css" | relURL }}" />
+
+  <script>new Image().src='https://nullitics.com/ce-t.gif?r='+encodeURI(document.referrer)+'&d='+screen.width</script>
+  <noscript><img src=https://nullitics.com/ce-t.gif></noscript>
+  
+
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+  <!-- {{ if eq .Page.Title "Home"}}
+  <link rel="stylesheet" href="{{ "css/foo.css" | relURL }}" />
+  {{ end }} -->
+</head>
+
+<body>
+  <!-- {{ trim .Page.RelPermalink "/"}} ,
+  {{ .RelPermalink}} , 
+  {{ eq "/about/" "==" .RelPermalink}} , 
+  {{ $currentPage := . }} -->
+
+  <nav>
+    <ul>
+      <li class="push-left"><a href="/" class="logo">
+        <img src="{{ "img/bot-white.svg" | relURL }}" alt="Curious Electric">
+        </a></li>
+
+      {{ range .Site.Menus.lazymain }}
+      <li>
+        <a href="{{ .URL | relURL }}" class="{{if or ($currentPage.IsMenuCurrent "lazymain" .)
+          ($currentPage.HasMenuCurrent "lazymain" .) }}active{{end}}">{{ .Name }}</a>
+        {{ end }}
+      </li>
+    </ul>
+    
+  </nav>
+
+  <!-- header-home -->
+
+
+<div id="overlay"></div>

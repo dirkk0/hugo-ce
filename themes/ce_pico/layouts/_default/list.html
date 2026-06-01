@@ -1,0 +1,332 @@
+{{ partial "header.html" . }}
+
+<!-- <img src="../img/bot.svg" class="mr-2" alt="Curious Electric" width="45"> -->
+
+<!-- list (_default) template -->
+
+<!-- Hero -->
+<div class="hero fadein" data-theme="dark">
+  <nav class="container-fluid">
+    <!-- <li>
+        <a href="./" class="contrast" onclick="event.preventDefault()"
+          ><strong>Brand</strong></a
+        >
+      </li> -->
+  </nav>
+
+  <header class="container">
+    <hgroup>{{ .Content }}</hgroup>
+    <p>
+      <!-- <a href="#" role="button" onclick="event.preventDefault()"
+        >Call to action</a
+      > -->
+    </p>
+  </header>
+</div>
+<!-- ./ Hero -->
+
+<!-- Main -->
+<main class="container fadein">
+  <div class="grid">
+    <section>
+      {{ $pages := .Pages }} {{ if and (in .Page.Title "Home") (in .Page.Title
+      "Home") }}
+      <p>yessss</p>
+      <div id="a1">
+        {{ $pages := .Pages }}
+
+        <div id="a2">
+          <p>Latest news:</p>
+          <ul>
+            {{ range first 3 (where (where .Site.RegularPages "Section" "news")
+            "Permalink" "!=" .Page.Permalink) }}
+            <li>
+              <span class="date">{{ .Date.Format "Jan 2006" }}</span>
+              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          <a href="news">All news</a>.
+
+          <hr />
+          <p>Recent projects:</p>
+          <ul>
+            {{ range first 3 (where (where .Site.RegularPages "Section"
+            "projects") "Permalink" "!=" .Page.Permalink) }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          <a href="projects">All projects</a>. <br /><br />
+          <!-- <i><small><a href="https://curious-electric.com/w/v0/">Where's the old page?</a></small></i>. -->
+
+          <hr />
+          <div class="description">
+            Subscribe to our low volume newsletter without spam.<br />
+          </div>
+          <form
+            id="subscribe-form"
+            method="post"
+            action="https://tinyletter.com/curiouselectric"
+          >
+            <div class="email-group">
+              <label for="email" class="sr-only">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value=""
+                placeholder="email@example.com"
+              />
+              <button class="button" type="submit">Subscribe</button>
+            </div>
+            <!-- <div class="privacy-policy">
+              <p av:i18n="block"><a href="https://www.intuit.com/privacy/statement/">TinyLetter's Privacy Policy</a></p>
+            </div> -->
+          </form>
+          <hr />
+          <br /><br />
+          <a href="imprint/">contact and imprint</a>
+        </div>
+      </div>
+      {{ end }} {{ $pages := .Pages }} {{ if eq .Page.Title "Projects"}}
+      <!-- <hgroup>
+        <h2>Projects</h2>
+        <p>Assorted list of projects</p>
+      </hgroup> -->
+
+      {{ $.Scratch.Set "counter" 0 }} {{ range (where (where .Site.RegularPages
+      "Section" "projects") "Permalink" "!=" .Page.Permalink) }}
+      <hr />
+      <h2>{{.Params.title}}</h2>
+      <p>{{ safeHTML .Summary }}</p>
+
+      {{ if .Params.image }} {{ $image := .Params.image }}
+      <figure>
+        <img src="{{ $image }}" class="preview" />
+        <!-- <figcaption>
+          Image from
+          <a href="https://unsplash.com/photos/3Ijt7UkSBYE" target="_blank"
+            >unsplash.com</a
+          >
+        </figcaption> -->
+      </figure>
+      <a href="{{ .Permalink }}"> {{ .Title | markdownify }}</a>
+      <p>{{ safeHTML .Summary }}</p>
+      <!-- <p>{{ safeHTML .Content }}</p> -->
+      <div class="date">{{ .Date.Format "2006/01" }}</div>
+      {{end}} {{end}}
+      <figure>
+        <img
+          src="../img/pico_temp/ashim-d-silva-3Ijt7UkSBYE-unsplash-1500x750.jpg"
+          alt="Architecture"
+        />
+        <figcaption>
+          Image from
+          <a href="https://unsplash.com/photos/3Ijt7UkSBYE" target="_blank"
+            >unsplash.com</a
+          >
+        </figcaption>
+      </figure>
+      <h3>Nulla augue metus</h3>
+      <p>{{ safeHTML .Summary }}</p>
+
+      {{ end }} {{ if eq .Page.Title "News"}}
+
+      <p><i>Note: Youtube links are not embedded for privacy reasons.</i></p>
+
+      <!-- <ul class="news-list">
+        {{ range .Data.Pages }}
+        <hr />
+        <li>
+          <span class="news-date">{{ .Date.Format "2006/01/02" }}</span>
+          {{ .Content }}
+        </li>
+        {{ end }}
+      </ul> -->
+
+      <div>
+        {{ range .Data.Pages }}
+        <hr />
+        <p class="news-date-del">{{ .Date.Format "2006/01/02" }}</p>
+        {{ .Content }} {{ end }}
+      </div>
+
+      {{ end }} {{ if eq .Page.Title "About"}}
+
+      <div>
+        {{ range .Data.Pages }}
+        <hr />
+        {{ .Content }} {{ end }}
+      </div>
+
+      {{ end }}
+    </section>
+
+    <!-- <aside>
+      <a href="#" aria-label="Example" onclick="event.preventDefault()"
+        ><img
+          src="../img/pico_temp/maarten-deckers-T5nXYXCf50I-unsplash-1500x750.jpg"
+          alt="Architecture"
+      /></a>
+      <p>
+        <a href="#" onclick="event.preventDefault()">Donec sit amet</a><br />
+        <small
+          >Class aptent taciti sociosqu ad litora torquent per conubia
+          nostra</small
+        >
+      </p>
+      <a href="#" aria-label="Example" onclick="event.preventDefault()"
+        ><img
+          src="../img/pico_temp/daniel-von-appen-tb4heMa-ZRo-unsplash-1500-750.jpg"
+          alt="Architecture"
+      /></a>
+      <p>
+        <a href="#" onclick="event.preventDefault()">Suspendisse potenti</a
+        ><br />
+        <small>Proin non condimentum tortor. Donec in feugiat sapien.</small>
+      </p>
+      <a href="#" aria-label="Example" onclick="event.preventDefault()"
+        ><img
+          src="../img/pico_temp/matthew-hamilton-Ru3Ap8TNcsk-unsplash-1500-750.jpg"
+          alt="Architecture"
+      /></a>
+      <p>
+        <a href="#" onclick="event.preventDefault()"
+          >Nullam lobortis placerat aliquam</a
+        ><br />
+        <small
+          >Maecenas vitae nibh blandit dolor commodo egestas vel eget neque.
+          Praesent semper justo orci, vel imperdiet mi auctor in.</small
+        >
+      </p>
+    </aside> -->
+  </div>
+</main>
+<!-- ./ Main -->
+
+<script>
+  /*!
+   * Minimal theme switcher
+   *
+   * Pico.css - https://picocss.com
+   * Copyright 2019-2023 - Licensed under MIT
+   */
+
+  const themeSwitcher = {
+    // Config
+    _scheme: "auto",
+    menuTarget: "details[role='list']",
+    buttonsTarget: "a[data-theme-switcher]",
+    buttonAttribute: "data-theme-switcher",
+    rootAttribute: "data-theme",
+    localStorageKey: "picoPreferredColorScheme",
+
+    // Init
+    init() {
+      this.scheme = this.schemeFromLocalStorage;
+      this.initSwitchers();
+    },
+
+    // Get color scheme from local storage
+    get schemeFromLocalStorage() {
+      if (typeof window.localStorage !== "undefined") {
+        if (window.localStorage.getItem(this.localStorageKey) !== null) {
+          return window.localStorage.getItem(this.localStorageKey);
+        }
+      }
+      return this._scheme;
+    },
+
+    // Preferred color scheme
+    get preferredColorScheme() {
+      return window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+    },
+
+    // Init switchers
+    initSwitchers() {
+      const buttons = document.querySelectorAll(this.buttonsTarget);
+      buttons.forEach((button) => {
+        button.addEventListener(
+          "click",
+          (event) => {
+            event.preventDefault();
+            // Set scheme
+            this.scheme = button.getAttribute(this.buttonAttribute);
+            // Close dropdown
+            document.querySelector(this.menuTarget).removeAttribute("open");
+          },
+          false
+        );
+      });
+    },
+
+    // Set scheme
+    set scheme(scheme) {
+      if (scheme == "auto") {
+        this.preferredColorScheme == "dark"
+          ? (this._scheme = "dark")
+          : (this._scheme = "light");
+      } else if (scheme == "dark" || scheme == "light") {
+        this._scheme = scheme;
+      }
+      this.applyScheme();
+      this.schemeToLocalStorage();
+    },
+
+    // Get scheme
+    get scheme() {
+      return this._scheme;
+    },
+
+    // Apply scheme
+    applyScheme() {
+      document
+        .querySelector("html")
+        .setAttribute(this.rootAttribute, this.scheme);
+    },
+
+    // Store scheme to local storage
+    schemeToLocalStorage() {
+      if (typeof window.localStorage !== "undefined") {
+        window.localStorage.setItem(this.localStorageKey, this.scheme);
+      }
+    },
+  };
+
+  // Init
+  themeSwitcher.init();
+</script>
+
+<script>
+  //   "use strict";
+
+  //   const $ = document.querySelector.bind(document);
+  //   const $$ = document.querySelectorAll.bind(document);
+
+  //   const iconSun = $("#icon-sun");
+  //   const iconMoon = $("#icon-moon");
+
+  //   // Toggle Theme
+  //   const themeSwitch = $("#theme-switch");
+
+  //   themeSwitch.addEventListener("click", () => {
+  //     const theme = $("html").getAttribute("data-theme");
+  //     $("html").setAttribute("data-theme", theme === "light" ? "dark" : "light");
+
+  //     const isLight = $("html").getAttribute("data-theme") === "light";
+  //     console.log(theme, isLight);
+  //     document.getElementById("icon-sun").style.display = isLight
+  //       ? "none"
+  //       : "block";
+  //     document.getElementById("icon-moon").style.display = isLight
+  //       ? "block"
+  //       : "none";
+  //   });
+  //
+</script>
+
+{{ partial "footer.html" . }}

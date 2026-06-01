@@ -1,0 +1,19 @@
+5 list
+
+<div>{{ partial "header.html" . }}</div>
+
+<div>content:</div>
+<div>{{ .Content }}</div>
+
+
+<ul class="news-list">
+  {{ range .Data.Pages }}
+  <li>
+    <span class="news-date">{{ .Date.Format "2006/01/02" }}</span>
+    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    {{ .Content }}
+  </li>
+  {{ end }}
+</ul>
+
+<div>{{ partial "footer.html" . }}</div>

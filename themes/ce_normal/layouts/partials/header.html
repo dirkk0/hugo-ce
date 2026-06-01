@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, minimum-scale=0.86">
+
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css" /> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic"/> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/> -->
+
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" />
+  <link rel="stylesheet" href="{{ "css/font.css" | relURL }}" />
+
+  <!-- script>new Image().src='https://nullitics.com/ce-t.gif?r='+encodeURI(document.referrer)+'&d='+screen.width</script>
+  <noscript><img src=https://nullitics.com/ce-t.gif></noscript>
+
+  <script data-goatcounter="https://curious-electric.goatcounter.com/count"
+  async src="//gc.zgo.at/count.js"></script>
+<noscript>
+<img src="https://curious-electric.goatcounter.com/count?p=/test-noscript">
+</noscript -->
+<!-- 100% privacy-first analytics -->
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+</head>
+
+<body>
+  <!-- {{ trim .Page.RelPermalink "/"}} ,
+  {{ .RelPermalink}} , 
+  {{ eq "/about/" "==" .RelPermalink}} , 
+  {{ $currentPage := . }} -->
+
+  <nav>
+    <ul>
+      <li class="push-left">
+        <a href="/" class="logo">
+        <img id="old-bot" src="{{ "img/bot.svg" | relURL }}" alt="Curious Electric">
+        </a>
+      </li>
+
+      <!-- <li>
+        <a href="/tags">tags</a>
+      </li> -->
+
+
+      {{ range .Site.Menus.lazymain }}
+      <li>
+        <a href="{{ .URL | relURL }}" class="{{if or ($currentPage.IsMenuCurrent "lazymain" .)
+          ($currentPage.HasMenuCurrent "lazymain" .) }}active{{end}}">{{ .Name }}</a>
+        {{ end }}
+      </li>
+    </ul>
+    
+  </nav>
+
+  <!-- header (default) -->
+
+
+<div id="overlay"></div>
