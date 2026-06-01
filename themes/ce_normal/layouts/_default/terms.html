@@ -2,7 +2,7 @@
 
 <main class="fadein">
   <h1>{{ .Title }}</h1>
-  <p>Browse our work by topic and technology.</p>
+  <p>{{ i18n "tags_intro" }}</p>
 
   <ul class="terms">
     {{ range .Data.Terms.Alphabetical }}

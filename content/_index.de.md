@@ -1,6 +1,6 @@
 ---
 title: Home
-
+type: "home" # defines the layout!!
 
 menu:
   lazymain:

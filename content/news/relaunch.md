@@ -1,7 +1,7 @@
 ---
 title: "Website Relaunch"
 date: 2022-10-20T11:00:00+02:00
-draft: true
+draft: false
 image: ../img/filmstro.png
 ---
 Website relaunch - finally!

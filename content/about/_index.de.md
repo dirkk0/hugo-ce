@@ -1,9 +1,12 @@
 ---
-title: About
-weight: 130
+title: Über
+
+menu:
+  lazymain:
+    weight: 190
 ---
 
-## Dienstleitungen
+## Dienstleistungen
 
 ### Beratung
 
@@ -16,7 +19,7 @@ Wir beforschen aktuellste Trends und Technologien, veröffentlichen Ergebnisse u
 Wir planen und besetzen Innovationsprojekte, setzen sie zielsicher um und kooperieren sinnvoll mit Partnern in Teilprojekten.
 
 ### Prototyping
-Wir erzeugt Prototypen, um Technologien erfahrbar zu machen. Wir fangen an, wo Präsentationen aufhören, inspirieren und machen Innovation konkret.
+Wir erzeugen Prototypen, um Technologien erfahrbar zu machen. Wir fangen an, wo Präsentationen aufhören, inspirieren und machen Innovation konkret.
 
 
 ## Team
@@ -39,4 +42,3 @@ One Man Army. Der Devigner hat mit Grafik und Typographie angefangen und dann ve
 *Innovation Management und WebDev*
 
 Gelernter Astrophysiker und diensthabender Innovationsmanger an der Open Source Theke. Er trennt den Technik-Hype von den wirklichen Zukunftsthemen mit Sinn und Verstand durch selbst Ausprobieren und Prototyping an der Basis. Mit zwei Dekaden Kunden- und Netzwerkagenturerfahrung im Rücken, weiss er was wirklich funktioniert und trüffelschweint die Quick Wins.
-

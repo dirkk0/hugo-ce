@@ -15,7 +15,7 @@
 
   {{ $pages := .Pages }}
 
-  {{ if eq .Page.Title "Projects"}}
+  {{ if eq .Section "projects"}}
   <ul>
     {{ $.Scratch.Set "counter" 0 }}
     {{ range (where (where .Site.RegularPages "Section" "projects") "Permalink" "!=" .Page.Permalink) }}
@@ -24,10 +24,9 @@
       <div>
         <!-- {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         I am the number {{$.Scratch.Get "counter"}} in loop! -->
-        {{ if .Params.image }}
-        {{ $image := .Params.image }}
-        <img src='{{ $image }}' class="preview">
-        {{end}}
+        {{ with .Params.image }}
+        <img src="{{ printf "img/%s" (path.Base .) | relURL }}" class="preview">
+        {{ end }}
       </div>
       <div>
         <!-- <a href="{{ .RelPermalink }}"> aaa {{ .Title | markdownify }}</a> -->
@@ -46,9 +45,9 @@
 
 
 
-  {{ if eq .Page.Title "News"}}
+  {{ if eq .Section "news"}}
 
-  <i>Note: Youtube links are not embedded for privacy reasons.</i>
+  <i>{{ i18n "yt_privacy_note" }}</i>
 
   <ul class="news-list">
     {{ range .Data.Pages }}
@@ -63,7 +62,7 @@
   </ul>
   {{ end }}
 
-  {{ if eq .Page.Title "About"}}
+  {{ if eq .Section "about"}}
 
   <ul class="news-list">
     {{ range .Data.Pages }}

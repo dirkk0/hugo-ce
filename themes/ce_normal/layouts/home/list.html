@@ -11,7 +11,7 @@
     {{ $pages := .Pages }}
 
     <div id="a2">
-      Latest news:
+      {{ i18n "latest_news" }}:
       <ul>
         {{ range first 3 (where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink) }}
         <li>
@@ -20,10 +20,10 @@
         </li>
         {{ end }}
       </ul>
-      <a href="news">All news</a>.
+      <a href="news">{{ i18n "all_news" }}</a>.
 
       <hr>
-      Recent projects:
+      {{ i18n "recent_projects" }}:
       <ul>
         {{ range first 3 (where (where .Site.RegularPages "Section" "projects") "Permalink" "!=" .Page.Permalink) }}
         <li>
@@ -31,22 +31,22 @@
         </li>
         {{ end }}
       </ul>
-      <a href="projects">All projects</a>.
+      <a href="projects">{{ i18n "all_projects" }}</a>.
       <br><br>
       <!-- <i><small><a href="https://curious-electric.com/w/v0/">Where's the old page?</a></small></i>. -->
 
       <hr>
-      <div class="description">Subscribe to our low volume newsletter without spam.<br></div>
+      <div class="description">{{ i18n "newsletter_pitch" }}<br></div>
       <form id="subscribe-form" method="post" action="https://us4.list-manage.com/subscribe/post?u=5ca334c435f42ae17ae136f01&amp;id=f47da503a8" target="_blank">
         <div class="email-group">
           <label for="email" class="sr-only">Email</label>
           <input type="email" id="email" name="EMAIL" value="" placeholder='email@example.com' />
-          <button class="button" type="submit">Subscribe</button>
+          <button class="button" type="submit">{{ i18n "subscribe" }}</button>
         </div>
       </form>
       <hr>
       <br><br>
-      <a href="imprint/">contact and imprint</a>
+      <a href="imprint/">{{ i18n "contact_imprint" }}</a>
     </div>
   </div>
 

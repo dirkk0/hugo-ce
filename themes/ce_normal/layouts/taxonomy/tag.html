@@ -1,8 +1,8 @@
 {{ partial "header.html" . }}
 
 <main class="fadein">
-  <h1>Tagged: {{ .Title }}</h1>
-  <p><a href="{{ with .Parent }}{{ .RelPermalink }}{{ else }}{{ "tags/" | relURL }}{{ end }}">← All tags</a></p>
+  <h1>{{ i18n "tagged" }}: {{ .Title }}</h1>
+  <p><a href="{{ with .Parent }}{{ .RelPermalink }}{{ else }}{{ "tags/" | relURL }}{{ end }}">← {{ i18n "all_tags" }}</a></p>
 
   <ul class="news-list">
     {{ range .Data.Pages }}
