@@ -1,194 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on Curious Electric Website</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content in Home on Curious Electric Website</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 08 Feb 2025 11:00:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>//localhost:1313/about/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/services/</guid>
-      <description>&lt;h2 id=&#34;services&#34;&gt;Services&lt;/h2&gt;&#xA;&lt;h3 id=&#34;consulting&#34;&gt;Consulting&lt;/h3&gt;&#xA;&lt;p&gt;Creating ideas in Innovation and Digital Transformation. Making sense of Technobabble and dent hype cycles.&lt;/p&gt;&#xA;&lt;h3 id=&#34;teaching&#34;&gt;Teaching&lt;/h3&gt;&#xA;&lt;p&gt;We research trends and technologies, publish our insights and educate in innovation technology.&lt;/p&gt;&#xA;&lt;h3 id=&#34;implementing&#34;&gt;Implementing&lt;/h3&gt;&#xA;&lt;p&gt;Purposeful Development of innovation projects and efficient cooperation with partners in subprojects.&lt;/p&gt;&#xA;&lt;h3 id=&#34;prototyping&#34;&gt;Prototyping&lt;/h3&gt;&#xA;&lt;p&gt;We create prototypes to endeavour new technologies. We start where presentations fail, inspire and deliver useful innovation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>//localhost:1313/about/team/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/team/</guid>
-      <description>&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;&#xA;&lt;h3 id=&#34;hans-bickhofe&#34;&gt;Hans Bickhofe&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;SysOps and QA&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Maintainer by day, maker by night. The trained electrical engineer handles huge server racks and small IoT devices and is a dab hand with the soldering iron. As a software engineer he masters client/server applications with enough Zen to dig into bugs of cutting edge technologies like AR.&lt;/p&gt;&#xA;&lt;h3 id=&#34;peter-bickhofe&#34;&gt;Peter Bickhofe&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Game Design and Art Direction&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;One Man Army. The Devigner startet out with graphic design and typography, then somehow forgot to stop learning. As a game designer he created numerous concepts and applications. His ideas are more in demand than ever, and since that is not enough for him, he teaches innovative topics like VR at the Cologne Games Lab.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>//localhost:1313/about/misc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/misc/</guid>
-      <description>&lt;h2 id=&#34;employment-opportunities&#34;&gt;Employment Opportunities&lt;/h2&gt;&#xA;&lt;p&gt;Unfortunately, there are no open positions at the moment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;analytics&#34;&gt;Analytics&lt;/h2&gt;&#xA;&lt;p&gt;This web site does not use Cookies or JavaScript.&lt;/p&gt;&#xA;&lt;!-- Analytics is provided by [Nullitics](https://nullitics.com/). --&gt;</description>
-    </item>
-    <item>
-      <title>Soft launch of mixxape!</title>
-      <link>//localhost:1313/news/mixxape-1/</link>
-      <pubDate>Sat, 08 Feb 2025 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/mixxape-1/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://mixxape.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mixxape&lt;/a&gt; soft launches! Register with the newsletter to be part of the beta program.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/mixxape-1.png#small&#34; alt=&#34;the friendly mixxape&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Successful completion of STARLIGHT</title>
-      <link>//localhost:1313/news/starlight2/</link>
-      <pubDate>Sun, 03 Mar 2024 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/starlight2/</guid>
-      <description>&lt;p&gt;We have successfully completed the STARLIGHT project, which was supported by &lt;a href=&#34;https://www.filmstiftung.de/news/die-film-und-medienstiftung-nrw-vergibt-340-000-euro-fuer-10-serious-games-projekte/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Film- und Medienstiftung NRW&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/chart1.png#small&#34; alt=&#34;first draft of a new way to imagine our neighborhood in the universe&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;img src=&#34;//localhost:1313/../img/starlight.png&#34; style=&#34;border: 1px solid black; width: 80%;&#34; alt=&#34;first draft of a new way to imagine our neighborhood in the universe&#34;&gt; --&gt;</description>
-    </item>
-    <item>
-      <title>New courses for Godot Game Engine</title>
-      <link>//localhost:1313/news/news-course-1/</link>
-      <pubDate>Thu, 14 Sep 2023 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/news-course-1/</guid>
-      <description>&lt;p&gt;We are now offering Godot Game Engine courses for small teams, both in person and remote.&lt;/p&gt;&#xA;&lt;p&gt;For more information and inquiries please send an email to &lt;a href=&#34;mailto:info@curious-electric.com&#34;&gt;info@curious-electric.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/godot-1.png#small&#34; alt=&#34;godot engine homepage screenshot&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- https://godotengine.org/ --&gt;</description>
-    </item>
-    <item>
-      <title>STARLIGHT receives funding</title>
-      <link>//localhost:1313/news/starlight/</link>
-      <pubDate>Sun, 03 Sep 2023 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/starlight/</guid>
-      <description>&lt;p&gt;We are grateful to receive funding for the awesome STARLIGHT project from &lt;a href=&#34;https://www.filmstiftung.de/news/die-film-und-medienstiftung-nrw-vergibt-340-000-euro-fuer-10-serious-games-projekte/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Film- und Medienstiftung NRW&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Mit STARLIGHT wird eine interaktive Sternenkarte mit Gamification-Anwendungen als Web-Applikation entwickelt.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;STARLIGHT is an interactive star map with gamification applications that is being developed as a web application.&amp;rdquo;&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/starlight.png#small&#34; alt=&#34;first draft of a new way to imagine our neighborhood in the universe&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;img src=&#34;//localhost:1313/../img/starlight.png&#34; style=&#34;border: 1px solid black; width: 80%;&#34; alt=&#34;first draft of a new way to imagine our neighborhood in the universe&#34;&gt; --&gt;</description>
-    </item>
-    <item>
-      <title>Next courses announced at CGL Winter 2023</title>
-      <link>//localhost:1313/news/news-cgl-3/</link>
-      <pubDate>Mon, 10 Jul 2023 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/news-cgl-3/</guid>
-      <description>&lt;p&gt;From September to December 2023 more Godot and Javascript for MA1 and MA3 courses on the&#xA;&lt;a href=&#34;https://colognegamelab.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cologne Game Lab&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description>
-    </item>
-    <item>
-      <title>Next Godot course at Cologne Game Lab</title>
-      <link>//localhost:1313/news/news-cgl-2/</link>
-      <pubDate>Wed, 10 May 2023 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/news-cgl-2/</guid>
-      <description>&lt;p&gt;In May and June 2023 more Godot 3.5.2 and 4 in a course for the&#xA;&lt;a href=&#34;https://colognegamelab.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cologne Game Lab&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Schedules for Master classes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MA1: 12.05.2022, 23.05.2023, tba&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description>
-    </item>
-    <item>
-      <title>Lychor released on Apple App Store</title>
-      <link>//localhost:1313/news/lychor/</link>
-      <pubDate>Wed, 01 Mar 2023 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/lychor/</guid>
-      <description>&lt;p&gt;LyChor, an App to display lyrics and Chords was released on the App Store!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../img/lychor_preview.png#small&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;More information on &lt;a href=&#34;https://lychor.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the product page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description>
-    </item>
-    <item>
-      <title>Filmstro V2</title>
-      <link>//localhost:1313/news/filmstrov2/</link>
-      <pubDate>Fri, 03 Feb 2023 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/filmstrov2/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://filmstro.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filmstro WebApp&lt;/a&gt; V2 is about to get ready!  &lt;a href=&#34;//localhost:1313/projects/filmstro&#34;&gt;project page&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Game trailer first draft</title>
-      <link>//localhost:1313/news/news-yt-2/</link>
-      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/news/news-yt-2/</guid>
-      <description>&lt;p&gt;Trailer for possible upcoming game written in Godot to support the Band &lt;a href=&#34;https://open.spotify.com/artist/5eTX5kMhPoCIDxxnt2FdZR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Radio Anywhere&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=7r-r8lRbL3E&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=7r-r8lRbL3E&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/7r-r8lRbL3E?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA; --&gt;</description>
-    </item>
-    <item>
-      <title>Godot tutorial published</title>
-      <link>//localhost:1313/news/news-yt-1/</link>
-      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/news/news-yt-1/</guid>
-      <description>&lt;p&gt;Tutorial on how to import Assets into the Godot game engine.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=7r-r8lRbL3E&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=7r-r8lRbL3E&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ChTvITqpaXc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA; --&gt;</description>
-    </item>
-    <item>
-      <title>Preparation for CGL course</title>
-      <link>//localhost:1313/news/news-cgl-1/</link>
-      <pubDate>Thu, 20 Oct 2022 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/news-cgl-1/</guid>
-      <description>&lt;p&gt;In November and December 2022 we will conduct a Godot course for the&#xA;&lt;a href=&#34;https://colognegamelab.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cologne Game Lab&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Schedules for Master classes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MA3: 27.10.2022, 03.11.2022, 10.11.2022, 17.11.2022&lt;/li&gt;&#xA;&lt;li&gt;MA1: 07.12.2022, 14.12.2022, 11.01.2023, 18.01.2023&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description>
-    </item>
-    <item>
-      <title>Alvirah And Willy</title>
-      <link>//localhost:1313/projects/alvirah/</link>
-      <pubDate>Wed, 08 Jun 2022 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/projects/alvirah/</guid>
-      <description>&lt;p&gt;Immersive Augmented Reality and browser experience.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Filmstro WebApp</title>
-      <link>//localhost:1313/news/filmstro/</link>
-      <pubDate>Sun, 03 Apr 2022 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/filmstro/</guid>
-      <description>&lt;p&gt;The new &lt;a href=&#34;https://filmstro.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filmstro WebApp&lt;/a&gt; is online! For more ino visit the &lt;a href=&#34;//localhost:1313/projects/filmstro&#34;&gt;project page&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>&#39;Alvirah and Willy&#39; launch</title>
-      <link>//localhost:1313/news/alvirah/</link>
-      <pubDate>Mon, 21 Mar 2022 11:00:00 +0200</pubDate>
-      <guid>//localhost:1313/news/alvirah/</guid>
-      <description>&lt;p&gt;Together with the famous artist Nieves de la Fuente we launched &amp;lsquo;Alvirah and Willy&amp;rsquo; - more infos on the &lt;a href=&#34;//localhost:1313/projects/alvirah&#34;&gt;project page&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Filmstro</title>
-      <link>//localhost:1313/projects/filmstro/</link>
-      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/filmstro/</guid>
-      <description>&lt;p&gt;Create customized, royalty-free music directly in your web browser.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gramofon</title>
-      <link>//localhost:1313/projects/gramofon/</link>
-      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/gramofon/</guid>
-      <description>&lt;p&gt;Music sampler experience with compositions by Jazz musician Jarry Singla&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Stand By</title>
-      <link>//localhost:1313/projects/standby/</link>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/standby/</guid>
-      <description>&lt;p&gt;Immersive browser experience.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Accretia</title>
-      <link>//localhost:1313/projects/accretia/</link>
-      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/accretia/</guid>
-      <description>&lt;p&gt;First Person 3D Game in Godot&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Flight13</title>
-      <link>//localhost:1313/projects/flight13/</link>
-      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/flight13/</guid>
-      <description>&lt;p&gt;Top Down 2D Game in Godot&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>KMU Multiview</title>
-      <link>//localhost:1313/projects/kmu/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/kmu/</guid>
-      <description>&lt;p&gt;virtual and augmented reality (VR and AR) concepts for education and training in SMEs&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>F.R.A.N.K.</title>
-      <link>//localhost:1313/projects/frank/</link>
-      <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/frank/</guid>
-      <description>&lt;p&gt;Award winning hardware controller and software for the demo scene.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Klangkiste</title>
-      <link>//localhost:1313/projects/klangkiste/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/klangkiste/</guid>
-      <description>&lt;p&gt;Interactive music sampler for German public-broadcasting institution Westdeutscher Rundfunk (WDR).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>HoloWAA</title>
-      <link>//localhost:1313/projects/holowaa/</link>
-      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/holowaa/</guid>
-      <description>&lt;p&gt;A networked Augmented Reality game for two or more HoloLenses.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Curious Electric</title><link>https://curious-electric.com/w/v2/</link><description>Recent content in Home on Curious Electric</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 08 Feb 2025 11:00:00 +0200</lastBuildDate><atom:link href="https://curious-electric.com/w/v2/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://curious-electric.com/w/v2/about/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/about/services/</guid><description>&lt;h2 id="services"&gt;Services&lt;/h2&gt;
+&lt;h3 id="consulting"&gt;Consulting&lt;/h3&gt;
+&lt;p&gt;Creating ideas in Innovation and Digital Transformation. Making sense of Technobabble and dent hype cycles.&lt;/p&gt;
+&lt;h3 id="teaching"&gt;Teaching&lt;/h3&gt;
+&lt;p&gt;We research trends and technologies, publish our insights and educate in innovation technology.&lt;/p&gt;
+&lt;h3 id="implementing"&gt;Implementing&lt;/h3&gt;
+&lt;p&gt;Purposeful Development of innovation projects and efficient cooperation with partners in subprojects.&lt;/p&gt;
+&lt;h3 id="prototyping"&gt;Prototyping&lt;/h3&gt;
+&lt;p&gt;We create prototypes to endeavour new technologies. We start where presentations fail, inspire and deliver useful innovation.&lt;/p&gt;</description></item><item><title/><link>https://curious-electric.com/w/v2/about/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/about/team/</guid><description>&lt;h2 id="team"&gt;Team&lt;/h2&gt;
+&lt;h3 id="hans-bickhofe"&gt;Hans Bickhofe&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;SysOps and QA&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Maintainer by day, maker by night. The trained electrical engineer handles huge server racks and small IoT devices and is a dab hand with the soldering iron. As a software engineer he masters client/server applications with enough Zen to dig into bugs of cutting edge technologies like AR.&lt;/p&gt;
+&lt;h3 id="peter-bickhofe"&gt;Peter Bickhofe&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Game Design and Art Direction&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;One Man Army. The Devigner startet out with graphic design and typography, then somehow forgot to stop learning. As a game designer he created numerous concepts and applications. His ideas are more in demand than ever, and since that is not enough for him, he teaches innovative topics like VR at the Cologne Games Lab.&lt;/p&gt;</description></item><item><title/><link>https://curious-electric.com/w/v2/about/misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/about/misc/</guid><description>&lt;h2 id="employment-opportunities"&gt;Employment Opportunities&lt;/h2&gt;
+&lt;p&gt;Unfortunately, there are no open positions at the moment.&lt;/p&gt;
+&lt;h2 id="analytics"&gt;Analytics&lt;/h2&gt;
+&lt;p&gt;This web site does not use Cookies or JavaScript.&lt;/p&gt;
+&lt;!-- Analytics is provided by [Nullitics](https://nullitics.com/). --&gt;</description></item><item><title>Soft launch of mixxape!</title><link>https://curious-electric.com/w/v2/news/mixxape-1/</link><pubDate>Sat, 08 Feb 2025 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/mixxape-1/</guid><description>&lt;p&gt;&lt;a href="https://mixxape.com" target="_blank" rel="noopener"&gt;mixxape&lt;/a&gt; soft launches! Register with the newsletter to be part of the beta program.&lt;/p&gt;
+&lt;p&gt;&lt;img src="../img/mixxape-1.png#small" alt="the friendly mixxape"&gt;&lt;/p&gt;</description></item><item><title>Successful completion of STARLIGHT</title><link>https://curious-electric.com/w/v2/news/starlight2/</link><pubDate>Sun, 03 Mar 2024 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/starlight2/</guid><description>&lt;p&gt;We have successfully completed the STARLIGHT project, which was supported by &lt;a href="https://www.filmstiftung.de/news/die-film-und-medienstiftung-nrw-vergibt-340-000-euro-fuer-10-serious-games-projekte/" target="_blank" rel="noopener"&gt;Film- und Medienstiftung NRW&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="../img/chart1.png#small" alt="first draft of a new way to imagine our neighborhood in the universe"&gt;&lt;/p&gt;
+&lt;!-- &lt;img src="https://curious-electric.com/w/v2/../img/starlight.png" style="border: 1px solid black; width: 80%;" alt="first draft of a new way to imagine our neighborhood in the universe"&gt; --&gt;</description></item><item><title>New courses for Godot Game Engine</title><link>https://curious-electric.com/w/v2/news/news-course-1/</link><pubDate>Thu, 14 Sep 2023 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/news-course-1/</guid><description>&lt;p&gt;We are now offering Godot Game Engine courses for small teams, both in person and remote.&lt;/p&gt;
+&lt;p&gt;For more information and inquiries please send an email to &lt;a href="mailto:info@curious-electric.com"&gt;info@curious-electric.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="../img/godot-1.png#small" alt="godot engine homepage screenshot"&gt;&lt;/p&gt;
+&lt;!-- https://godotengine.org/ --&gt;</description></item><item><title>STARLIGHT receives funding</title><link>https://curious-electric.com/w/v2/news/starlight/</link><pubDate>Sun, 03 Sep 2023 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/starlight/</guid><description>&lt;p&gt;We are grateful to receive funding for the awesome STARLIGHT project from &lt;a href="https://www.filmstiftung.de/news/die-film-und-medienstiftung-nrw-vergibt-340-000-euro-fuer-10-serious-games-projekte/" target="_blank" rel="noopener"&gt;Film- und Medienstiftung NRW&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Mit STARLIGHT wird eine interaktive Sternenkarte mit Gamification-Anwendungen als Web-Applikation entwickelt.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;STARLIGHT is an interactive star map with gamification applications that is being developed as a web application.&amp;rdquo;&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;img src="../img/starlight.png#small" alt="first draft of a new way to imagine our neighborhood in the universe"&gt;&lt;/p&gt;
+&lt;!-- &lt;img src="https://curious-electric.com/w/v2/../img/starlight.png" style="border: 1px solid black; width: 80%;" alt="first draft of a new way to imagine our neighborhood in the universe"&gt; --&gt;</description></item><item><title>Next courses announced at CGL Winter 2023</title><link>https://curious-electric.com/w/v2/news/news-cgl-3/</link><pubDate>Mon, 10 Jul 2023 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/news-cgl-3/</guid><description>&lt;p&gt;From September to December 2023 more Godot and Javascript for MA1 and MA3 courses on the
+&lt;a href="https://colognegamelab.de/" target="_blank" rel="noopener"&gt;Cologne Game Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description></item><item><title>Next Godot course at Cologne Game Lab</title><link>https://curious-electric.com/w/v2/news/news-cgl-2/</link><pubDate>Wed, 10 May 2023 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/news-cgl-2/</guid><description>&lt;p&gt;In May and June 2023 more Godot 3.5.2 and 4 in a course for the
+&lt;a href="https://colognegamelab.de/" target="_blank" rel="noopener"&gt;Cologne Game Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Schedules for Master classes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MA1: 12.05.2022, 23.05.2023, tba&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description></item><item><title>Lychor released on Apple App Store</title><link>https://curious-electric.com/w/v2/news/lychor/</link><pubDate>Wed, 01 Mar 2023 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/lychor/</guid><description>&lt;p&gt;LyChor, an App to display lyrics and Chords was released on the App Store!&lt;/p&gt;
+&lt;p&gt;&lt;img src="../img/lychor_preview.png#small" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;More information on &lt;a href="https://lychor.com" target="_blank" rel="noopener"&gt;the product page&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description></item><item><title>Filmstro V2</title><link>https://curious-electric.com/w/v2/news/filmstrov2/</link><pubDate>Fri, 03 Feb 2023 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/filmstrov2/</guid><description>&lt;p&gt;The &lt;a href="https://filmstro.com/" target="_blank" rel="noopener"&gt;Filmstro WebApp&lt;/a&gt; V2 is about to get ready! &lt;a href="https://curious-electric.com/w/v2/projects/filmstro"&gt;project page&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Game trailer first draft</title><link>https://curious-electric.com/w/v2/news/news-yt-2/</link><pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/news/news-yt-2/</guid><description>&lt;p&gt;Trailer for possible upcoming game written in Godot to support the Band &lt;a href="https://open.spotify.com/artist/5eTX5kMhPoCIDxxnt2FdZR" target="_blank" rel="noopener"&gt;Radio Anywhere&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=7r-r8lRbL3E" target="_blank" rel="noopener"&gt;https://www.youtube.com/watch?v=7r-r8lRbL3E&lt;/a&gt;&lt;/p&gt;
+&lt;!-- &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/7r-r8lRbL3E?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+ --&gt;</description></item><item><title>Godot tutorial published</title><link>https://curious-electric.com/w/v2/news/news-yt-1/</link><pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/news/news-yt-1/</guid><description>&lt;p&gt;Tutorial on how to import Assets into the Godot game engine.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=7r-r8lRbL3E" target="_blank" rel="noopener"&gt;https://www.youtube.com/watch?v=7r-r8lRbL3E&lt;/a&gt;&lt;/p&gt;
+&lt;!-- &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ChTvITqpaXc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+ --&gt;</description></item><item><title>Preparation for CGL course</title><link>https://curious-electric.com/w/v2/news/news-cgl-1/</link><pubDate>Thu, 20 Oct 2022 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/news-cgl-1/</guid><description>&lt;p&gt;In November and December 2022 we will conduct a Godot course for the
+&lt;a href="https://colognegamelab.de/" target="_blank" rel="noopener"&gt;Cologne Game Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Schedules for Master classes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MA3: 27.10.2022, 03.11.2022, 10.11.2022, 17.11.2022&lt;/li&gt;
+&lt;li&gt;MA1: 07.12.2022, 14.12.2022, 11.01.2023, 18.01.2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- [Staff page](https://colognegamelab.de/about/faculty-staff/contract-lecturers/dirk-krause/) --&gt;</description></item><item><title>Alvirah And Willy</title><link>https://curious-electric.com/w/v2/projects/alvirah/</link><pubDate>Wed, 08 Jun 2022 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/projects/alvirah/</guid><description>&lt;p&gt;Immersive Augmented Reality and browser experience.&lt;/p&gt;</description></item><item><title>Filmstro WebApp</title><link>https://curious-electric.com/w/v2/news/filmstro/</link><pubDate>Sun, 03 Apr 2022 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/filmstro/</guid><description>&lt;p&gt;The new &lt;a href="https://filmstro.com/" target="_blank" rel="noopener"&gt;Filmstro WebApp&lt;/a&gt; is online! For more ino visit the &lt;a href="https://curious-electric.com/w/v2/projects/filmstro"&gt;project page&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>'Alvirah and Willy' launch</title><link>https://curious-electric.com/w/v2/news/alvirah/</link><pubDate>Mon, 21 Mar 2022 11:00:00 +0200</pubDate><guid>https://curious-electric.com/w/v2/news/alvirah/</guid><description>&lt;p&gt;Together with the famous artist Nieves de la Fuente we launched &amp;lsquo;Alvirah and Willy&amp;rsquo; - more infos on the &lt;a href="https://curious-electric.com/w/v2/projects/alvirah"&gt;project page&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Filmstro</title><link>https://curious-electric.com/w/v2/projects/filmstro/</link><pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/filmstro/</guid><description>&lt;p&gt;Create customized, royalty-free music directly in your web browser.&lt;/p&gt;</description></item><item><title>Gramofon</title><link>https://curious-electric.com/w/v2/projects/gramofon/</link><pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/gramofon/</guid><description>&lt;p&gt;Music sampler experience with compositions by Jazz musician Jarry Singla&lt;/p&gt;</description></item><item><title>Stand By</title><link>https://curious-electric.com/w/v2/projects/standby/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/standby/</guid><description>&lt;p&gt;Immersive browser experience.&lt;/p&gt;</description></item><item><title>Accretia</title><link>https://curious-electric.com/w/v2/projects/accretia/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/accretia/</guid><description>&lt;p&gt;First Person 3D Game in Godot&lt;/p&gt;</description></item><item><title>Flight13</title><link>https://curious-electric.com/w/v2/projects/flight13/</link><pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/flight13/</guid><description>&lt;p&gt;Top Down 2D Game in Godot&lt;/p&gt;</description></item><item><title>KMU Multiview</title><link>https://curious-electric.com/w/v2/projects/kmu/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/kmu/</guid><description>&lt;p&gt;virtual and augmented reality (VR and AR) concepts for education and training in SMEs&lt;/p&gt;</description></item><item><title>F.R.A.N.K.</title><link>https://curious-electric.com/w/v2/projects/frank/</link><pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/frank/</guid><description>&lt;p&gt;Award winning hardware controller and software for the demo scene.&lt;/p&gt;</description></item><item><title>Klangkiste</title><link>https://curious-electric.com/w/v2/projects/klangkiste/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/klangkiste/</guid><description>&lt;p&gt;Interactive music sampler for German public-broadcasting institution Westdeutscher Rundfunk (WDR).&lt;/p&gt;</description></item><item><title>HoloWAA</title><link>https://curious-electric.com/w/v2/projects/holowaa/</link><pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/projects/holowaa/</guid><description>&lt;p&gt;A networked Augmented Reality game for two or more HoloLenses.&lt;/p&gt;</description></item></channel></rss>
