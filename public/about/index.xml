@@ -1,32 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>About on Curious Electric</title>
-    <link>http://localhost:1313/w/v2/about/</link>
-    <description>Recent content in About on Curious Electric</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/w/v2/about/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/w/v2/about/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/w/v2/about/services/</guid>
-      <description>&lt;h2 id=&#34;services&#34;&gt;Services&lt;/h2&gt;&#xA;&lt;h3 id=&#34;consulting&#34;&gt;Consulting&lt;/h3&gt;&#xA;&lt;p&gt;Creating ideas in Innovation and Digital Transformation. Making sense of Technobabble and dent hype cycles.&lt;/p&gt;&#xA;&lt;h3 id=&#34;teaching&#34;&gt;Teaching&lt;/h3&gt;&#xA;&lt;p&gt;We research trends and technologies, publish our insights and educate in innovation technology.&lt;/p&gt;&#xA;&lt;h3 id=&#34;implementing&#34;&gt;Implementing&lt;/h3&gt;&#xA;&lt;p&gt;Purposeful Development of innovation projects and efficient cooperation with partners in subprojects.&lt;/p&gt;&#xA;&lt;h3 id=&#34;prototyping&#34;&gt;Prototyping&lt;/h3&gt;&#xA;&lt;p&gt;We create prototypes to endeavour new technologies. We start where presentations fail, inspire and deliver useful innovation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/w/v2/about/team/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/w/v2/about/team/</guid>
-      <description>&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;&#xA;&lt;h3 id=&#34;hans-bickhofe&#34;&gt;Hans Bickhofe&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;SysOps and QA&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Maintainer by day, maker by night. The trained electrical engineer handles huge server racks and small IoT devices and is a dab hand with the soldering iron. As a software engineer he masters client/server applications with enough Zen to dig into bugs of cutting edge technologies like AR.&lt;/p&gt;&#xA;&lt;h3 id=&#34;peter-bickhofe&#34;&gt;Peter Bickhofe&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Game Design and Art Direction&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;One Man Army. The Devigner startet out with graphic design and typography, then somehow forgot to stop learning. As a game designer he created numerous concepts and applications. His ideas are more in demand than ever, and since that is not enough for him, he teaches innovative topics like VR at the Cologne Games Lab.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/w/v2/about/misc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/w/v2/about/misc/</guid>
-      <description>&lt;h2 id=&#34;employment-opportunities&#34;&gt;Employment Opportunities&lt;/h2&gt;&#xA;&lt;p&gt;Unfortunately, there are no open positions at the moment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;analytics&#34;&gt;Analytics&lt;/h2&gt;&#xA;&lt;p&gt;This web site does not use Cookies or JavaScript.&lt;/p&gt;&#xA;&lt;!-- Analytics is provided by [Nullitics](https://nullitics.com/). --&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Curious Electric</title><link>https://curious-electric.com/w/v2/about/</link><description>Recent content in About on Curious Electric</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://curious-electric.com/w/v2/about/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://curious-electric.com/w/v2/about/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/about/services/</guid><description>&lt;h2 id="services"&gt;Services&lt;/h2&gt;
+&lt;h3 id="consulting"&gt;Consulting&lt;/h3&gt;
+&lt;p&gt;Creating ideas in Innovation and Digital Transformation. Making sense of Technobabble and dent hype cycles.&lt;/p&gt;
+&lt;h3 id="teaching"&gt;Teaching&lt;/h3&gt;
+&lt;p&gt;We research trends and technologies, publish our insights and educate in innovation technology.&lt;/p&gt;
+&lt;h3 id="implementing"&gt;Implementing&lt;/h3&gt;
+&lt;p&gt;Purposeful Development of innovation projects and efficient cooperation with partners in subprojects.&lt;/p&gt;
+&lt;h3 id="prototyping"&gt;Prototyping&lt;/h3&gt;
+&lt;p&gt;We create prototypes to endeavour new technologies. We start where presentations fail, inspire and deliver useful innovation.&lt;/p&gt;</description></item><item><title/><link>https://curious-electric.com/w/v2/about/team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/about/team/</guid><description>&lt;h2 id="team"&gt;Team&lt;/h2&gt;
+&lt;h3 id="hans-bickhofe"&gt;Hans Bickhofe&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;SysOps and QA&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Maintainer by day, maker by night. The trained electrical engineer handles huge server racks and small IoT devices and is a dab hand with the soldering iron. As a software engineer he masters client/server applications with enough Zen to dig into bugs of cutting edge technologies like AR.&lt;/p&gt;
+&lt;h3 id="peter-bickhofe"&gt;Peter Bickhofe&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Game Design and Art Direction&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;One Man Army. The Devigner startet out with graphic design and typography, then somehow forgot to stop learning. As a game designer he created numerous concepts and applications. His ideas are more in demand than ever, and since that is not enough for him, he teaches innovative topics like VR at the Cologne Games Lab.&lt;/p&gt;</description></item><item><title/><link>https://curious-electric.com/w/v2/about/misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://curious-electric.com/w/v2/about/misc/</guid><description>&lt;h2 id="employment-opportunities"&gt;Employment Opportunities&lt;/h2&gt;
+&lt;p&gt;Unfortunately, there are no open positions at the moment.&lt;/p&gt;
+&lt;h2 id="analytics"&gt;Analytics&lt;/h2&gt;
+&lt;p&gt;This web site does not use Cookies or JavaScript.&lt;/p&gt;
+&lt;!-- Analytics is provided by [Nullitics](https://nullitics.com/). --&gt;</description></item></channel></rss>
