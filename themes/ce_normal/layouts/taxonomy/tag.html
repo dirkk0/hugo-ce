@@ -2,6 +2,7 @@
 
 <main class="fadein">
   <h1>Tagged: {{ .Title }}</h1>
+  <p><a href="{{ with .Parent }}{{ .RelPermalink }}{{ else }}{{ "tags/" | relURL }}{{ end }}">← All tags</a></p>
 
   <ul class="news-list">
     {{ range .Data.Pages }}
