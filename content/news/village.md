@@ -18,5 +18,5 @@ Tweak the grid and the town reshapes itself: coastal or central-road layouts, an
 ![The same village at night, windows and street lights lit](../../img/village-night.png#small)
 
 Like the [Matrix 1000 editor](/projects/oberheim-matrix1000/), it was built largely with AI assistance — another of our experiments in AI-assisted engineering. See the [project page](/projects/village/) for more.
-
-Interested in WebGL, Three.js, or procedural generation? [Get in touch](mailto:info@curious-electric.com?subject=Project%20inquiry).
+<!-- 
+Interested in WebGL, Three.js, or procedural generation? [Get in touch](mailto:info@curious-electric.com?subject=Project%20inquiry). -->

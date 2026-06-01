@@ -19,4 +19,4 @@ Es ist eine kleine Liebeserklärung an alte Hardware — und eine schöne Erinne
 
 **Eine Anmerkung zur Entstehung:** Dieser Editor wurde größtenteils mit Hilfe von [Claude](https://www.anthropic.com/claude), der KI von Anthropic, entwickelt — wir brachten die Designrichtung, die SysEx-Spezifika und das Testen an echter Hardware ein, und die KI übernahm einen Großteil der Arbeit dazwischen. Es ist eines von mehreren Experimenten, die wir im Bereich der KI-gestützten Entwicklung durchführen: tiefes Fachwissen mit moderner KI zu verbinden, um bemerkenswert schnell von der Idee zu einem funktionierenden Werkzeug zu gelangen. Erwarten Sie weitere Beiträge dieser Art.
 
-Neugierig auf webbasierte Audio-Tools, die Steuerung von Hardware aus dem Browser oder darauf, was KI-gestützte Entwicklung für Ihr eigenes Projekt leisten könnte? [Kontaktieren Sie uns](mailto:info@curious-electric.com?subject=Project%20inquiry).
+<!-- Neugierig auf webbasierte Audio-Tools, die Steuerung von Hardware aus dem Browser oder darauf, was KI-gestützte Entwicklung für Ihr eigenes Projekt leisten könnte? [Kontaktieren Sie uns](mailto:info@curious-electric.com?subject=Project%20inquiry). -->

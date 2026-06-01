@@ -19,4 +19,4 @@ Verändere das Raster, und die Stadt formt sich neu: Layouts an der Küste oder 
 
 Wie der [Matrix 1000 Editor](/projects/oberheim-matrix1000/) wurde es größtenteils mit KI-Unterstützung entwickelt — ein weiteres unserer Experimente im Bereich der KI-gestützten Entwicklung. Auf der [Projektseite](/projects/village/) finden Sie mehr.
 
-Interessiert an WebGL, Three.js oder prozeduraler Generierung? [Kontaktieren Sie uns](mailto:info@curious-electric.com?subject=Project%20inquiry).
+<!-- Interessiert an WebGL, Three.js oder prozeduraler Generierung? [Kontaktieren Sie uns](mailto:info@curious-electric.com?subject=Project%20inquiry). -->

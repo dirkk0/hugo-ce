@@ -17,4 +17,4 @@ The interesting part is under the hood. Instead of hand-building levels, each pu
 
 There are diorama-style "see-through" walls that fade away as you orbit, soft shadows, and a toon-shaded look across five hand-crafted environments — a greenhouse, a train station, a detective's study, an ancient plaza, and an attic. It's an experiment in procedural content and WebGL game feel, headed for casual web portals first.
 
-Interested in WebGL, Three.js, or procedural generation? [Get in touch](mailto:info@curious-electric.com?subject=Project%20inquiry).
+<!-- Interested in WebGL, Three.js, or procedural generation? [Get in touch](mailto:info@curious-electric.com?subject=Project%20inquiry). -->

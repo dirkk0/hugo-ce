@@ -19,4 +19,4 @@ It's a small love letter to old hardware — and a neat reminder that the modern
 
 **A note on how it was made:** this editor was built largely with the help of [Claude](https://www.anthropic.com/claude), Anthropic's AI — we brought the design direction, the SysEx specifics, and the testing against real hardware, and the AI did a lot of the heavy lifting in between. It's one of several experiments we're running into AI-assisted engineering: pairing deep domain knowledge with modern AI to get from idea to a working tool remarkably fast. Expect more notes like this one.
 
-Curious about web-based audio tools, controlling hardware from the browser, or what AI-assisted development could do for your own project? [Get in touch](mailto:info@curious-electric.com?subject=Project%20inquiry).
+<!-- Curious about web-based audio tools, controlling hardware from the browser, or what AI-assisted development could do for your own project? [Get in touch](mailto:info@curious-electric.com?subject=Project%20inquiry). -->

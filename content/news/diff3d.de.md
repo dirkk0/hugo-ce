@@ -17,4 +17,4 @@ Das Interessante steckt unter der Haube. Anstatt Levels von Hand zu bauen, wird 
 
 Es gibt dioramaartige „durchsichtige" Wände, die beim Umkreisen ausblenden, weiche Schatten und eine Toon-Shading-Optik über fünf von Hand gestaltete Umgebungen – ein Gewächshaus, ein Bahnhof, das Arbeitszimmer eines Detektivs, ein antiker Platz und ein Dachboden. Es ist ein Experiment mit prozeduralen Inhalten und WebGL-Spielgefühl, das zunächst für lockere Web-Portale gedacht ist.
 
-Interesse an WebGL, Three.js oder prozeduraler Generierung? [Kontaktieren Sie uns](mailto:info@curious-electric.com?subject=Project%20inquiry).
+<!-- Interesse an WebGL, Three.js oder prozeduraler Generierung? [Kontaktieren Sie uns](mailto:info@curious-electric.com?subject=Project%20inquiry). -->
