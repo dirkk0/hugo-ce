@@ -4,6 +4,7 @@ date: 2021-02-20
 draft: false
 image: ../img/flight13.png
 tags: ['Godot', 'Game']
+description: "Flight13 is a top-down 2D game built in Godot — fly missions to distant planets for a mysterious client while keeping your failing ship in one piece."
 ---
 Top Down 2D Game in Godot
 

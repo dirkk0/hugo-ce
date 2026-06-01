@@ -4,6 +4,7 @@ date: 2017-11-18
 draft: false
 image: ../img/holowaa.png
 tags: ['Unity', 'AR']
+description: "HoloWAA is a networked augmented-reality game for two or more Microsoft HoloLens headsets, sending 'The Little Astronaut' on a new journey."
 ---
 A networked Augmented Reality game for two or more HoloLenses.
 <!--more-->

@@ -8,14 +8,17 @@
   </url><url>
     <loc>http://localhost:1313/w/v2/about/misc/</loc>
   </url><url>
-    <loc>http://localhost:1313/w/v2/news/diff3d/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/w/v2/news/oberheim-matrix1000/</loc>
+    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/w/v2/tags/game/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/w/v2/tags/ai/</loc>
+    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/w/v2/tags/audio/</loc>
+    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/w/v2/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
+    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -28,13 +31,13 @@
                 />
   </url><url>
     <loc>http://localhost:1313/w/v2/tags/javascript/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
+    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/w/v2/news/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
+    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/w/v2/tags/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
+    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -46,20 +49,24 @@
                 href="http://localhost:1313/w/v2/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/w/v2/tags/threejs/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/w/v2/tags/webgl/</loc>
-    <lastmod>2026-06-01T11:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/w/v2/news/oberheim-matrix1000/</loc>
-    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/w/v2/tags/audio/</loc>
-    <lastmod>2026-05-20T11:00:00+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/w/v2/tags/webmidi/</loc>
     <lastmod>2026-05-20T11:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/w/v2/projects/oberheim-matrix1000/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/w/v2/projects/</loc>
+    <lastmod>2026-05-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/w/v2/de/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/w/v2/projects/"
+                />
   </url><url>
     <loc>http://localhost:1313/w/v2/news/mixxape-1/</loc>
     <lastmod>2025-02-08T11:00:00+02:00</lastmod>
@@ -100,19 +107,6 @@
     <loc>http://localhost:1313/w/v2/projects/alvirah/</loc>
     <lastmod>2022-06-08T11:00:00+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/w/v2/projects/</loc>
-    <lastmod>2022-06-08T11:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/w/v2/de/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/w/v2/projects/"
-                />
-  </url><url>
     <loc>http://localhost:1313/w/v2/news/filmstro/</loc>
     <lastmod>2022-04-03T11:00:00+02:00</lastmod>
   </url><url>
@@ -132,6 +126,9 @@
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/w/v2/projects/accretia/</loc>
+    <lastmod>2021-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/w/v2/tags/game/</loc>
     <lastmod>2021-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/w/v2/tags/godot/</loc>

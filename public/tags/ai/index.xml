@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WebMIDI on Curious Electric</title>
-    <link>http://localhost:1313/w/v2/tags/webmidi/</link>
-    <description>Recent content in WebMIDI on Curious Electric</description>
+    <title>AI on Curious Electric</title>
+    <link>http://localhost:1313/w/v2/tags/ai/</link>
+    <description>Recent content in AI on Curious Electric</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 May 2026 11:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/w/v2/tags/webmidi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/w/v2/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A browser-based editor for the Oberheim Matrix 1000</title>
       <link>http://localhost:1313/w/v2/news/oberheim-matrix1000/</link>

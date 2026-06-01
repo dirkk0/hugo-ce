@@ -4,6 +4,7 @@ date: 2022-01-03
 draft: false
 image: ../img/gramofon.png
 tags: ['JavaScript', 'ToneJS']
+description: "Gramofon is a browser-based music sampler experience featuring original compositions by renowned jazz musician Jarry Singla."
 ---
 Music sampler experience with compositions by Jazz musician Jarry Singla
 

@@ -4,6 +4,7 @@ date: 2022-03-21
 draft: false
 image: ../img/filmstro.png
 tags: ['JavaScript', 'ToneJS']
+description: "Curious Electric built the in-browser audio engine for Filmstro, a music-tech web app that lets content creators customize royalty-free soundtracks in real time."
 ---
 Create customized, royalty-free music directly in your web browser.
 

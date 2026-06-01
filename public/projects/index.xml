@@ -6,8 +6,15 @@
     <description>Recent content in Projects on Curious Electric</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jun 2022 11:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/w/v2/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oberheim Matrix 1000 Editor</title>
+      <link>http://localhost:1313/w/v2/projects/oberheim-matrix1000/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/w/v2/projects/oberheim-matrix1000/</guid>
+      <description>&lt;p&gt;A browser-based, real-time patch editor for the classic Oberheim Matrix 1000 analog synthesizer — no installation, no backend.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Alvirah And Willy</title>
       <link>http://localhost:1313/w/v2/projects/alvirah/</link>

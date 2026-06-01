@@ -4,6 +4,7 @@ date: 2019-08-18
 draft: false
 image: ../img/frank.png
 tags: ['Raspi', 'IOT']
+description: "F.R.A.N.K. is an award-winning Raspberry Pi hardware controller and software built for the demoscene."
 ---
 Award winning hardware controller and software for the demo scene.
 

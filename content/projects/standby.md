@@ -4,6 +4,7 @@ date: 2021-11-02
 draft: false
 image: ../img/standby.png
 tags: ['Javascript', 'A-Frame']
+description: "Stand By is an immersive, browser-based experience created by Curious Electric using A-Frame and WebXR."
 ---
 Immersive browser experience.
 

@@ -4,6 +4,7 @@ date: 2020-01-01
 draft: false
 image: ../img/kmu.png
 tags: ['Javascript', 'Golang','WebRTC','PHP']
+description: "KMU Multiview explores virtual- and augmented-reality concepts for education and training in small and medium-sized enterprises."
 ---
 virtual and augmented reality (VR and AR) concepts for education and training in SMEs
 <!--more-->

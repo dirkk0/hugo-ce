@@ -4,6 +4,7 @@ date: 2019-03-01
 draft: false
 image: ../img/klaki.png
 tags: ['JavaScript', 'ToneJS','P5JS','Phaser']
+description: "Klangkiste is an interactive, browser-based music sampler built for German public broadcaster Westdeutscher Rundfunk (WDR)."
 ---
 
 Interactive music sampler for German public-broadcasting institution Westdeutscher Rundfunk (WDR).
