@@ -1,0 +1,24 @@
+{{- /* Language switcher. Shows every language the site home is translated into.
+       Current language -> current page. Other language -> the page's
+       translation if it exists, otherwise that language's home page
+       (so it still works while most translations are draft/unpublished). */ -}}
+{{- $page := . -}}
+{{- $langHomes := site.Home.AllTranslations -}}
+{{- if gt (len $langHomes) 1 -}}
+<li class="lang-switch">
+  {{- range $i, $home := $langHomes -}}
+    {{- $lang := $home.Language -}}
+    {{- $url := "" -}}
+    {{- if eq $lang.Lang $page.Language.Lang -}}
+      {{- $url = $page.RelPermalink -}}
+    {{- else -}}
+      {{- range $page.Translations -}}{{- if eq .Language.Lang $lang.Lang -}}{{- $url = .RelPermalink -}}{{- end -}}{{- end -}}
+      {{- if not $url -}}{{- $url = $home.RelPermalink -}}{{- end -}}
+    {{- end -}}
+    {{- with $url -}}
+      {{- if $i }}<span class="lang-sep">/</span>{{ end -}}
+      <a href="{{ . }}"{{ if eq $lang.Lang $page.Language.Lang }} class="lang-active" aria-current="true"{{ end }}>{{ $lang.LanguageName | default (upper $lang.Lang) }}</a>
+    {{- end -}}
+  {{- end -}}
+</li>
+{{- end -}}

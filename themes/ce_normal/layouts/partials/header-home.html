@@ -62,8 +62,9 @@
         ($currentPage.HasMenuCurrent "lazymain" .) }}active{{end}}">{{ .Name }}</a>
         {{ end }}
       </li>
+      {{ partial "lang-switch.html" . }}
     </ul>
-    
+
   </nav>
 
   <!-- header-home -->

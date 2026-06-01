@@ -49,13 +49,13 @@ permalinks:
 
 languages:
   en:
-    # title: My blog
+    languageName: "EN"
     weight: 1
   de:
+    languageName: "DE"
     params:
       navigation:
-        help: Aide
-    # title: Mon blogue
+        help: Hilfe
     weight: 2
 
 

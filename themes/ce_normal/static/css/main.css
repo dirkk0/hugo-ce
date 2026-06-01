@@ -93,6 +93,35 @@ nav a.active {
   margin-right: auto;
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: 12px;
+  white-space: nowrap;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+.lang-switch a {
+  display: inline;
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+.lang-switch a:hover {
+  color: grey;
+}
+
+.lang-switch a.lang-active {
+  color: grey;
+  font-weight: 500;
+}
+
+.lang-sep {
+  color: #ddd;
+}
+
 .news-list {
   list-style: none;
   margin: 0;
