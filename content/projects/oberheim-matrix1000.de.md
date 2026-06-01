@@ -6,7 +6,7 @@ image: ../img/oberheim-matrix1000.png
 tags: ['JavaScript', 'WebMIDI', 'Audio', 'AI']
 description: "Ein browserbasierter Echtzeit-Patch-Editor für den analogen Synthesizer Oberheim Matrix 1000 — entwickelt mit der Web MIDI API und SysEx, ohne Installation oder Backend."
 ---
-Ein browserbasierter Echtzeit-Patch-Editor für den klassischen analogen Synthesizer Oberheim Matrix 1000 — keine Installation, kein Backend.
+Ein browserbasierter Echtzeit-Patch-Editor für den klassischen analogen Synthesizer Oberheim Matrix 1000.
 
 <!--more-->
 

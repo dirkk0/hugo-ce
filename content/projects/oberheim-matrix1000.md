@@ -6,7 +6,7 @@ image: ../img/oberheim-matrix1000.png
 tags: ['JavaScript', 'WebMIDI', 'Audio', 'AI']
 description: "A browser-based, real-time patch editor for the Oberheim Matrix 1000 analog synthesizer — built with the Web MIDI API and SysEx, no install or backend."
 ---
-A browser-based, real-time patch editor for the classic Oberheim Matrix 1000 analog synthesizer — no installation, no backend.
+A browser-based, real-time patch editor for the classic Oberheim Matrix 1000 analog synthesizer.
 
 <!--more-->
 
