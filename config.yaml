@@ -1,6 +1,6 @@
-baseurl: "/"
+baseurl: "https://curious-electric.com/w/v1/"
 languageCode: "en-us"
-title: "Curious Electric Website"
+title: "Curious Electric"
 theme: "ce_normal"
 googleAnalytics: ""
 disqusShortname: ""
