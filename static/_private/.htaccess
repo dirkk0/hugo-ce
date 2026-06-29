@@ -1,0 +1,9 @@
+# Block all public web access to the analytics log in this folder.
+# hit.php / stats.php read it server-side; nobody should fetch it over HTTP.
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>

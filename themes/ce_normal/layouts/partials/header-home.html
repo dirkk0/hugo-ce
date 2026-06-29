@@ -26,14 +26,14 @@
   <noscript><img src=https://nullitics.com/ce-t.gif></noscript>
   -->
 
-  <!-- privacy-first analytics: GoatCounter -->
-  <script data-goatcounter="https://curious-electric.goatcounter.com/count"
-  async src="//gc.zgo.at/count.js"></script>
-<noscript>
-<img src="https://curious-electric.goatcounter.com/count?p=/test-noscript">
-</noscript>
-<!-- SimpleAnalytics disabled (domain stuck on a deleted SA account); using GoatCounter instead
-<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <!-- privacy-first analytics: self-hosted first-party pixel (see static/hit.php).
+       Served first-party from our own domain and not a known tracker host, so
+       ad/tracker blockers leave it alone — unlike the old GoatCounter beacon,
+       whose gc.zgo.at script was blocked client-side (503) → ~zero counts. -->
+  <script>(function(){new Image().src="{{ "hit.php" | relURL }}?p={{ .RelPermalink }}&r="+encodeURIComponent(document.referrer||"");})();</script>
+  <noscript><img src="{{ "hit.php" | relURL }}?p={{ .RelPermalink }}" alt="" width="1" height="1" style="position:absolute;left:-9999px"></noscript>
+<!-- GoatCounter (disabled — beacon blocked as a 3rd-party tracker; using self-hosted hit.php instead)
+  <script data-goatcounter="https://curious-electric.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 -->
 
 

@@ -35,7 +35,7 @@ Maintainer by day, maker by night. The trained electrical engineer handles huge 
 
 *Game Design and Art Direction*
 
-One Man Army. The Devigner startet out with graphic design and typography, then somehow forgot to stop learning. As a game designer he created numerous concepts and applications. His ideas are more in demand than ever, and since that is not enough for him, he teaches innovative topics like VR at the Cologne Games Lab.
+One Man Army. The Devigner started out with graphic design and typography, then somehow forgot to stop learning. As a game designer he created numerous concepts and applications. His ideas are more in demand than ever, and since that is not enough for him, he teaches innovative topics like VR at the Cologne Games Lab.
 
 ### Dirk Krause
 
