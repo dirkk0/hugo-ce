@@ -10,10 +10,18 @@
 */ -}}
 {{- $dest := .Destination -}}
 {{- if or (hasPrefix $dest "http://") (hasPrefix $dest "https://") (hasPrefix $dest "//") -}}
-<img src="{{ $dest }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+<img src="{{ $dest }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
 {{- else -}}
 {{- $u := urls.Parse $dest -}}
-{{- $src := printf "img/%s" (path.Base $u.Path) | relURL -}}
+{{- $base := path.Base $u.Path -}}
+{{- $src := printf "img/%s" $base | relURL -}}
 {{- with $u.Fragment }}{{ $src = printf "%s#%s" $src . }}{{ end -}}
-<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- /* images.Config errors on non-raster formats (e.g. SVG); skip dimensions for those rather than break the build */ -}}
+{{- $dims := "" -}}
+{{- if not (eq (lower (path.Ext $base)) ".svg") -}}
+  {{- with (images.Config (printf "static/img/%s" $base)) -}}
+    {{- $dims = printf ` width="%d" height="%d"` .Width .Height -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ $dims | safeHTMLAttr }} loading="lazy">
 {{- end -}}

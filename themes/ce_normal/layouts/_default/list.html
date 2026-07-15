@@ -19,13 +19,21 @@
   <ul>
     {{ $.Scratch.Set "counter" 0 }}
     {{ range (where (where .Site.RegularPages "Section" "projects") "Permalink" "!=" .Page.Permalink) }}
+    {{ $project := . }}
 
     <li class="preview-item">
       <div>
         <!-- {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         I am the number {{$.Scratch.Get "counter"}} in loop! -->
         {{ with .Params.image }}
-        <img src="{{ printf "img/%s" (path.Base .) | relURL }}" class="preview">
+        {{ $base := path.Base . }}
+        {{ $dims := "" }}
+        {{ if not (eq (lower (path.Ext $base)) ".svg") }}
+          {{ with (images.Config (printf "static/img/%s" $base)) }}
+            {{ $dims = printf ` width="%d" height="%d"` .Width .Height }}
+          {{ end }}
+        {{ end }}
+        <img src="{{ printf "img/%s" $base | relURL }}" class="preview" alt="{{ $project.Title | markdownify }}" loading="lazy"{{ $dims | safeHTMLAttr }}>
         {{ end }}
       </div>
       <div>

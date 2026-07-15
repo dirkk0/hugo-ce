@@ -55,7 +55,7 @@
 
       {{ range .Site.Menus.lazymain }}
       <li>
-        <a href="{{ .URL | relURL }}" class="{{if or ($currentPage.IsMenuCurrent "lazymain" .)
+        <a href="{{ .URL }}" class="{{if or ($currentPage.IsMenuCurrent "lazymain" .)
           ($currentPage.HasMenuCurrent "lazymain" .) }}active{{end}}">{{ .Name }}</a>
         {{ end }}
       </li>

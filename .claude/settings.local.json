@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo version *)",
+      "Bash(hugo --destination /tmp/claude-1000/-home-dirkk-Documents-GitHub-hugo-ce/19982158-9c6d-44ca-ac23-94ca0bb9bbce/scratchpad/hugo-build)",
+      "Bash(xargs -n1 basename)",
+      "Bash(hugo --destination /tmp/claude-1000/-home-dirkk-Documents-GitHub-hugo-ce/19982158-9c6d-44ca-ac23-94ca0bb9bbce/scratchpad/hugo-build2)"
+    ]
+  }
+}
