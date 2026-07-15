@@ -1,0 +1,1 @@
+- [SEO review 2026-07-15](seo_review_2026-07-15.md) — open backlog: subpath-deploy SEO tradeoff (deferred), /news/ duplicate content (undecided), thin tag pages (planned)
