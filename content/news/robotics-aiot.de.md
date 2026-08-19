@@ -13,7 +13,7 @@ Wir bringen Curious Electric in Richtung **Robotik und AIoT** — Geräte, die i
 
 ![Drei ESP32-Geräte auf der Werkbank](../../img/esp32.jpg#small)
 
-Der Anfang ist eine Werkbank voller **ESP32**-Hardware: batteriebetriebene Boards mit e-Paper-Displays, Audioaufnahme direkt auf dem Gerät, WLAN, Sensoren — und Firmware, die wir selbst schreiben. Die ersten Ergebnisse stehen online im neuen [ESP32 Hardware Lab](/de/projects/esp32/): ein Sprachnotiz-Gerät, das aufnimmt, hochlädt und transkribiert, eine Tischuhr mit Raumtemperatur und Luftfeuchte, und eine Sampler-Engine, die auf zwei sehr unterschiedlichen Boards läuft.
+Der Anfang ist eine Werkbank voller **ESP32**-Hardware: batteriebetriebene Boards mit e-Paper-Displays, Audioaufnahme direkt auf dem Gerät, WLAN, Sensoren — und Firmware, die wir selbst schreiben. Die ersten Ergebnisse stehen online im neuen [Hardware Lab](/de/projects/hardware-lab/): ein Sprachnotiz-Gerät, das aufnimmt, hochlädt und transkribiert, eine Tischuhr mit Raumtemperatur und Luftfeuchte, und eine Sampler-Engine, die auf zwei sehr unterschiedlichen Boards läuft.
 
 ESP32 ist der Anfang, nicht die Grenze. Dieselben Fragen — Energiebudgets, Sensorik, Funkstrecken, Echtzeitverhalten und Software, die auch dann weiterlaufen muss, wenn niemand zusieht — führen direkt in die Robotik, und genau dorthin geht es.
 

@@ -13,7 +13,7 @@ We are taking Curious Electric into **robotics and AIoT** — devices that sense
 
 ![Three ESP32 devices on the bench](../../img/esp32.jpg#small)
 
-The starting point is a bench full of **ESP32** hardware: battery-powered boards with e-paper displays, on-device audio recording, WiFi, sensors, and firmware we write ourselves. The first results are online in the new [ESP32 Hardware Lab](/projects/esp32/) — a voice-memo device that records, uploads and transcribes, a desk clock reading room temperature and humidity, and one sampler engine running across two very different boards.
+The starting point is a bench full of **ESP32** hardware: battery-powered boards with e-paper displays, on-device audio recording, WiFi, sensors, and firmware we write ourselves. The first results are online in the new [Hardware Lab](/projects/hardware-lab/) — a voice-memo device that records, uploads and transcribes, a desk clock reading room temperature and humidity, and one sampler engine running across two very different boards.
 
 ESP32 is where we start, not where we stop. The same questions — power budgets, sensors, radio links, real-time behaviour, and software that has to keep working when nobody is watching it — carry directly into robotics, and that is the direction we are heading.
 
