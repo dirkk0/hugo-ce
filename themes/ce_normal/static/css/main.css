@@ -1,10 +1,12 @@
 /* via https://gist.github.com/uupaa/f77d2bcf4dc7a294d109?permalink_comment_id=3715422#gistcomment-3715422 */
 img[src$="#small"] {
   width: 300px;
+  height: auto; /* render hook emits width/height attrs — keep the aspect ratio */
 }
 
 img[src$="#verysmall"] {
   width: 150px;
+  height: auto;
 }
 
 .logo {
@@ -224,6 +226,7 @@ main {
 
 .preview {
   width: 12em;
+  height: auto;
 }
 
 .preview-item {
