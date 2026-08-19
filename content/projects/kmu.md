@@ -9,7 +9,7 @@ description: "KMU Multiview explores virtual- and augmented-reality concepts for
 virtual and augmented reality (VR and AR) concepts for education and training in SMEs
 <!--more-->
 
-![](../../img/kmu.png#small)
+![The KMU Multiview project banner with its augmented-reality training logo](../../img/kmu.png#small)
 
 The project ran from 2019 to 2022.
 

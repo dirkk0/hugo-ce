@@ -15,7 +15,7 @@ From the project page:
 
 These woodworms, being responsible of the decay of human structures and social tissue, propagate through different media and screens of the users of the project. While trying to find each other among the books and furniture, they build tunnels into another dimension, into another planet. 
 
-![](../../img/alvirah.png#small)
+![A woodworm on sunlit ground, casting a long shadow across the sand](../../img/alvirah.png#small)
 
 <hr>
 

@@ -8,7 +8,7 @@ image: ../img/filmstro.png
 LyChor, an App to display lyrics and Chords was released on the App Store!
 
 
-![](../../img/lychor_preview.png#small)
+![The LyChor landing page, with a tablet showing a song's lyrics and chords](../../img/lychor_preview.png#small)
 
 More information on [the product page](https://lychor.com).
 

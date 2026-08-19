@@ -12,7 +12,7 @@ Create customized, royalty-free music directly in your web browser.
 
 Filmstro Ltd is a music tech scale-up based in 'Silicon Beach', aka Brighton, England (UK).
 
-![](../../img/filmstro.png#small)
+![The Filmstro web app: 'Customize royalty free music for your videos', with the editor open on a laptop](../../img/filmstro.png#small)
 
 > Create customized, royalty-free music directly in your web browser.
 Filmstro helps you customize your soundtrack to match the pacing and emotion of your project, just like you're already doing with your video footage edits.

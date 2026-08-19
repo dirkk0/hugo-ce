@@ -14,7 +14,7 @@ F.R.A.N.K. ist der Franken Retro Aqara Normaliizing Kontrollr, ein Projekt, das 
 
 Aber er [hat einen Award gewonnen](https://demozoo.org/productions/266519/)
 
-![](../../img/frank.png#small)
+![Drei Handheld-Computer und zwei kleine Würfelgeräte, die alle denselben Pixel-Sonnenuntergang zeigen](../../img/frank.png#small)
 <hr>
 
 Link: https://f.r.a.n.k.bickhofe.com/

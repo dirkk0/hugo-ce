@@ -11,7 +11,7 @@ Interactive music sampler for German public-broadcasting institution Westdeutsch
 
 <!--more-->
 
-![](../../img/klaki.png#small)
+![The Klangkiste start screen: tiles with instrument icons and WDR musicians holding harp, trumpet and violin](../../img/klaki.png#small)
 
 The core of the sound box is "DoReMix," a kind of composition construction kit with which recordings of the four WDR ensembles can be edited and reassembled. This way, children can create their own little musical pieces.
 

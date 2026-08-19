@@ -11,7 +11,7 @@ Interaktiver Musik-Sampler für die öffentlich-rechtliche Rundfunkanstalt Westd
 
 <!--more-->
 
-![](../../img/klaki.png#small)
+![Der Startbildschirm der Klangkiste: Kacheln mit Instrument-Icons und WDR-Musikerinnen und -Musikern mit Harfe, Trompete und Geige](../../img/klaki.png#small)
 
 Der Kern der Klangkiste ist "DoReMix", eine Art Kompositionsbaukasten, mit dem sich Aufnahmen der vier WDR Ensembles bearbeiten und neu zusammenstellen lassen. So können Kinder eigene kleine Musikstücke erschaffen.
 

@@ -12,7 +12,7 @@ Ein vernetztes Augmented-Reality-Spiel für zwei oder mehr HoloLenses.
 HoloWAA ist ein vernetztes Augmented-Reality-Spiel, das „The Little Astronaut“ auf eine neue Reise schickt – für zwei oder mehr HoloLenses.
 
 
-![](../../img/holowaa.png#small)
+![Der Blick durch die HoloLens: kleine Roboter und eine abgeschirmte Erde schweben im echten Raum, gegenüber ein zweiter Spieler](../../img/holowaa.png#small)
 
 
 

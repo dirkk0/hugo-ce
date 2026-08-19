@@ -12,6 +12,6 @@ First Person 3D Game in Godot
 
 > Alone and left behind in an abandoned station not knowing who or what you are - can you escape?
 
-![](/../img/accretia.png#small)
+![A dim, low-poly room in the abandoned station, lit only by light falling through the windows](/../img/accretia.png#small)
 
 Link: https://curious-games.itch.io/accretia

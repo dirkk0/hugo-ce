@@ -14,7 +14,7 @@ F.R.A.N.K. is the Franken Retro Aqara Normaliizing Kontrollr, a project too hard
 
 But it [won an Award](https://demozoo.org/productions/266519/)
 
-![](../../img/frank.png#small)
+![Three handheld computers and two small cube devices, all running the same pixel-art sunset](../../img/frank.png#small)
 <hr>
 
 Link: https://f.r.a.n.k.bickhofe.com/

@@ -10,7 +10,7 @@ Music sampler experience with compositions by Jazz musician Jarry Singla
 
 <!--more-->
 
-![](../../img/gramofon.png#small)
+![The Gramofon sampler: a grid of coloured sample tiles, with more tiles waiting at either side](../../img/gramofon.png#small)
 
 Jarry Singla is a renowned Jazz Musician ([WikiPedia](https://de.wikipedia.org/wiki/Jarry_Singla)).
 

@@ -10,7 +10,7 @@ Musik-Sampler-Erlebnis mit Kompositionen des Jazzmusikers Jarry Singla
 
 <!--more-->
 
-![](../../img/gramofon.png#small)
+![Der Gramofon-Sampler: ein Raster farbiger Sample-Kacheln, weitere Kacheln liegen an beiden Seiten bereit](../../img/gramofon.png#small)
 
 Jarry Singla ist ein renommierter Jazzmusiker ([WikiPedia](https://de.wikipedia.org/wiki/Jarry_Singla)).
 

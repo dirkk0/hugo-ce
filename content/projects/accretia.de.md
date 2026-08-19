@@ -12,6 +12,6 @@ First-Person-3D-Spiel in Godot
 
 > Allein und zurückgelassen in einer verlassenen Station, ohne zu wissen, wer oder was du bist – kannst du entkommen?
 
-![](/../img/accretia.png#small)
+![Ein düsterer Low-Poly-Raum der verlassenen Station, nur vom Licht durch die Fenster erhellt](/../img/accretia.png#small)
 
 Link: https://curious-games.itch.io/accretia

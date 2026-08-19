@@ -10,7 +10,7 @@ Immersives Browser-Erlebnis.
 
 <!--more-->
 
-![](../../img/standby.png#small)
+![„Stand By“ im Browser: eine Landschaft als treibende Punktwolke auf Schwarz](../../img/standby.png#small)
 
 Von der Projektseite:
 > “Stand By” is featured in https://www.afterprogress.com , an online exhibition curated by Dr Martin Savransky, Goldsmiths, University of London and Dr Craig Lundy, London Metropolitan University. 

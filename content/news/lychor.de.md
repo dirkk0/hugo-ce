@@ -8,7 +8,7 @@ image: ../img/filmstro.png
 LyChor, eine App zur Anzeige von Liedtexten und Akkorden, wurde im App Store veröffentlicht!
 
 
-![](../../img/lychor_preview.png#small)
+![Die LyChor-Seite mit einem Tablet, das Liedtext und Akkorde eines Songs zeigt](../../img/lychor_preview.png#small)
 
 Weitere Informationen auf [der Produktseite](https://lychor.com).
 

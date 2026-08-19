@@ -15,7 +15,7 @@ Von der Projektseite:
 
 Diese Holzwürmer, verantwortlich für den Verfall menschlicher Strukturen und des sozialen Gefüges, verbreiten sich über verschiedene Medien und Bildschirme der Nutzer des Projekts. Während sie versuchen, einander zwischen Büchern und Möbeln zu finden, graben sie Tunnel in eine andere Dimension, auf einen anderen Planeten.
 
-![](../../img/alvirah.png#small)
+![Ein Holzwurm auf sonnenbeschienenem Grund, der einen langen Schatten über den Sand wirft](../../img/alvirah.png#small)
 
 <hr>
 
