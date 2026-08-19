@@ -136,6 +136,19 @@ nav a.active {
   font-size: small;
 }
 
+.news-list li {
+  margin-bottom: 1.2em;
+}
+
+.news-title {
+  display: block;
+  margin-top: 0.2em;
+}
+
+.news-summary {
+  margin: 0.3em 0 0;
+}
+
 .tag-text {
   font-size: small;
 }
