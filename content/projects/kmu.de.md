@@ -1,6 +1,6 @@
 ---
 title: "KMU Multiview"
-date: 2020-01-01
+date: 2019-01-01
 draft: false
 image: ../img/kmu.png
 tags: ['JavaScript', 'Golang','WebRTC','PHP']
@@ -11,7 +11,7 @@ Konzepte der virtuellen und erweiterten Realität (VR und AR) für die Aus- und 
 
 ![](../../img/kmu.png#small)
 
-Laufendes Projekt.
+Das Projekt lief von 2019 bis 2022.
 
 Von der Projektseite:
 > Ziel des Vorhabens ist es, zu untersuchen, wie neue Ansätze und Techniken, etwa die Virtuelle und Erweiterte Realität (VR und AR) für innovative Ausbildungs- und Trainingskonzepte in Unternehmen genutzt werden können um diese Erschwernisse zu erleichtern.

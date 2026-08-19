@@ -1,9 +1,9 @@
 ---
 title: "Pepper Showroom Assistant"
 date: 2018-07-08
-draft: true
+draft: false
 image: ../img/pepper-1.jpg
-tags: ['Python', 'Robotics', 'NAOqi']
+tags: ['Python', 'Robotics']
 description: "A prototype assistant system for Aldebaran's Pepper robot, built to welcome and guide visitors in the showroom of a large corporate client."
 ---
 A prototype assistant for Pepper, the humanoid robot by Aldebaran, built to welcome and guide visitors in a corporate showroom.

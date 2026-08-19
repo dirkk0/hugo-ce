@@ -1,6 +1,6 @@
 ---
 title: "KMU Multiview"
-date: 2020-01-01
+date: 2019-01-01
 draft: false
 image: ../img/kmu.png
 tags: ['JavaScript', 'Golang','WebRTC','PHP']
@@ -11,7 +11,7 @@ virtual and augmented reality (VR and AR) concepts for education and training in
 
 ![](../../img/kmu.png#small)
 
-Ongoing project.
+The project ran from 2019 to 2022.
 
 From the project page:
 > The aim of the project is to investigate how new approaches and techniques, such as virtual and augmented reality (VR and AR), can be used for innovative education and training concepts in companies to alleviate these difficulties.
