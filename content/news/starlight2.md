@@ -9,3 +9,5 @@ We have successfully completed the STARLIGHT project, which was supported by [Fi
 ![first draft of a new way to imagine our neighborhood in the universe](../../img/chart1.png#small)
 
 <!-- <img src="/../img/starlight.png" style="border: 1px solid black; width: 80%;" alt="first draft of a new way to imagine our neighborhood in the universe"> -->
+
+More on the concept, the data pipeline and the prototypes: [the STARLIGHT project page](/projects/starlight/).

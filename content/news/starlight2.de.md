@@ -9,3 +9,5 @@ Wir haben das STARLIGHT-Projekt erfolgreich abgeschlossen, das von der [Film- un
 ![erster Entwurf einer neuen Art, unsere Nachbarschaft im Universum zu betrachten](../../img/chart1.png#small)
 
 <!-- <img src="/../img/starlight.png" style="border: 1px solid black; width: 80%;" alt="first draft of a new way to imagine our neighborhood in the universe"> -->
+
+Mehr zu Konzept, Datenpipeline und Prototypen: [die STARLIGHT-Projektseite](/de/projects/starlight/).
