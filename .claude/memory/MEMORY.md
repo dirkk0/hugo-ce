@@ -1,2 +1,3 @@
-- [SEO review 2026-07-15](seo_review_2026-07-15.md) — open backlog: subpath-deploy SEO tradeoff (deferred), /news/ duplicate content (undecided), thin tag pages (planned)
+- [SEO review 2026-07-15](seo_review_2026-07-15.md) — open backlog: subpath-deploy SEO tradeoff (deferred), thin tag pages (planned); /news/ duplicate content RESOLVED 2026-08-19
 - [Queued autonomous work](queued-autonomous-work.md) — alt-text pass on 20 project files, hold until Dirk steps away
+- [diff3d is now TTL](diff3d-renamed-ttl.md) — game renamed to "Through The Lens"; site rename done 2026-08-19, status stays prototype
