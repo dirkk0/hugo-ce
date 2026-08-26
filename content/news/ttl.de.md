@@ -1,22 +1,24 @@
 ---
-title: "TTL: ein Fehlersuchspiel mit unendlich vielen Levels"
-date: 2026-06-01T11:00:00+02:00
+title: "TTL — Through the Lens ist da"
+date: 2026-08-28T10:00:00+02:00
 draft: false
-description: "TTL ist unser Prototyp eines lockeren 3D-Fehlersuchspiels, bei dem jedes Level algorithmisch aus einem Seed generiert wird – ein theoretisch unendlicher Rätselpool, entwickelt mit Three.js."
-image: ../img/ttl.jpg
+description: "Unser Noir-Wimmelbildspiel TTL — Through the Lens ist auf Playgama live. Linse heben, finden, was der Raum verbirgt, und das Foto machen."
+image: ../img/ttl-3.jpg
 tags: ['JavaScript', 'ThreeJS', 'Game', 'WebGL']
 ---
 
-Wir haben einen Prototyp eines lockeren 3D-Spiels entwickelt, das wir **TTL** nennen — Through The Lens: zwei nebeneinanderliegende Szenen zum Drehen und Zoomen, zum Vergleichen — und ein langer Druck heilt jeden gefundenen Unterschied wieder ins Bild, bis beide Szenen übereinstimmen.
+**TTL — Through the Lens** ist live. Es ist unser erstes Spiel auf einem Portal und ab sofort auf [Playgama](https://playgama.com/game/through-the-lens) spielbar.
 
 <!--more-->
 
-Das Interessante steckt unter der Haube. Anstatt Levels von Hand zu bauen, wird jedes Rätsel **algorithmisch aus einem einzigen Seed** generiert – eine Basisszene wird unter räumlichen und Verdeckungsbeschränkungen mutiert (ein Objekt wird umgefärbt, gedreht, verschoben oder entfernt). Dadurch ist der Level-Pool theoretisch unendlich, während ein reiner, render-engine-unabhängiger Generator es uns zudem ermöglicht, Levels offline vorzuberechnen, um sie sofort zu laden.
+![Ein Dach bei Nacht unter tiefem Mond, die Linse offen über einem Wasserturm](../../img/ttl-3.jpg#small)
 
-![Ein TTL-Rätsel: zwei 3D-Szenen nebeneinander](../../img/ttl.jpg#small)
+Man ist die Kamera an einem Fall. Jede Szene ist ein beleuchtetes Diorama, das sich umkreisen lässt — ein Gewächshaus, ein Detektivbüro, ein Dach über einer schlafenden Stadt — und irgendetwas darin stimmt nicht. Gedrückt halten hebt die Linse, ziehen bewegt sie über die Szene, und sie zeigt, was der Raum verborgen hat. Bleibt sie auf dem Ding liegen, das nicht dazugehört, wird es markiert. Sind alle gefunden, entsteht das Foto.
 
-Es gibt dioramaartige „durchsichtige" Wände, die beim Umkreisen ausblenden, weiche Schatten und eine Toon-Shading-Optik über fünf von Hand gestaltete Umgebungen – ein Gewächshaus, ein Bahnhof, das Arbeitszimmer eines Detektivs, ein antiker Platz und ein Dachboden. Es ist ein Experiment mit prozeduralen Inhalten und WebGL-Spielgefühl, das zunächst für lockere Web-Portale gedacht ist.
+Die Linse läuft auf einer Ladung, die sich im geöffneten Zustand leert und im geschlossenen wieder füllt. Den Raum einfach abzufahren funktioniert also nicht — man muss sich entscheiden, wo man hinsieht.
 
-<!-- Interesse an WebGL, Three.js oder prozeduraler Generierung? [Kontaktieren Sie uns](mailto:info@curious-electric.com?subject=Project%20inquiry). -->
+Darunter arbeitet der Generator, über den wir [im Juni geschrieben haben](/de/news/diff3d/): Jede Szene entsteht aus einem einzigen Seed, Objekte werden umgefärbt, gedreht, verschoben oder entfernt, unter Constraints, die jeden Fund auffindbar halten. Der Prototyp war ein Vergleichsspiel mit zwei Szenen; die Linse hat das ersetzt, und das Spiel ist dadurch deutlich besser geworden.
 
-Mehr zum Spiel auf der [Projektseite](/de/projects/ttl/).
+Gebaut in striktem TypeScript auf Three.js, lauffähig im Browser-Tab — ohne Installation, ohne Konto.
+
+[Auf Playgama spielen](https://playgama.com/game/through-the-lens) oder auf der [Projektseite](/de/projects/ttl/) nachlesen, wie es entstanden ist.

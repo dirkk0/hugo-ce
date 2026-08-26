@@ -1,25 +1,27 @@
 ---
 title: "TTL"
-date: 2026-06-01
+date: 2026-08-26
 draft: false
 image: ../img/ttl.jpg
 tags: ['JavaScript', 'ThreeJS', 'WebGL', 'Game']
-description: "TTL (Through The Lens) is a casual 3D spot-the-difference game whose levels are generated algorithmically from a seed — a theoretically infinite puzzle pool, built with Three.js."
+description: "TTL (Through the Lens) is a noir hidden-object game in 3D — raise a lens over a lit diorama to reveal what it hides — with every scene generated algorithmically from a seed. Built with Three.js and published on Playgama."
 ---
-**TTL — Through The Lens.** A spot-the-difference game in 3D: two scenes you rotate and zoom to compare, with an endless supply of levels generated from a seed.
+**TTL — Through the Lens.** A noir hidden-object game in 3D: you are the camera on a case, and the lens shows you what each room is hiding. Published on [Playgama](https://playgama.com/game/through-the-lens).
 
 <!--more-->
 
-![A TTL puzzle scene: a toon-shaded greenhouse, seen through the lens](../../img/ttl.jpg#small)
+![A TTL scene: a toon-shaded greenhouse, seen through the lens](../../img/ttl.jpg#small)
 
-Two scenes sit side by side — one canonical, one quietly mutated — sharing a single camera, so rotating or zooming moves both at once. Find a difference, press and hold on it, and it heals back into place.
+Each scene is a lit diorama you can orbit — a greenhouse, a train station, a detective's study, an ancient plaza, an attic, a rooftop above a sleeping city. Something in it is wrong. Holding down raises a lens you drag across the scene, and where it passes, what the room was hiding comes up out of the dark. Rest it on the object that doesn't belong and it tags. Find them all and you take the photograph.
 
-The interesting part is that nobody builds the levels. Each puzzle is generated from a single seed: a base scene is mutated — a prop recoloured, rotated, moved or removed — under spatial and occlusion constraints that keep every difference findable from at least one angle. The generator is pure and renderer-agnostic, so the same seeds can either run live in the browser or be baked into pre-generated levels that ship without the generator.
+The lens runs on a charge that drains while it is open and refills while it is closed, so sweeping the whole room and waiting is not a strategy. The constraint is the game: you have to decide where to look.
 
 ![A detective's study, one of the hand-built environments the generator works from](../../img/ttl-2.jpg#small)
 
-Around that sits the part that makes it a game: diorama-style walls that fade away as you orbit into them, soft shadows, a toon-shaded look, and a set of hand-crafted environments — a greenhouse, a train station, a detective's study, an ancient plaza, an attic — that the generator treats as raw material. Written in strict TypeScript on Three.js.
+The part nobody sees is that nobody builds the levels. Each scene is generated from a single seed: a base environment is mutated — a prop recoloured, rotated, moved or removed — under spatial and occlusion constraints that keep every change findable from at least one angle. The generator is pure and renderer-agnostic, so the same seeds either run live in the browser or get baked into pre-generated levels that ship without the generator at all.
 
-There is a [news post](/news/ttl/) with more on the generator.
+It started as **diff3d**, a prototype we [wrote about in June](/news/diff3d/): two scenes side by side under a shared camera, the classic spot-the-difference layout, with the generator already underneath. Comparing two panels turned out to be work rather than play. Replacing them with a single scene and a lens kept everything interesting about the generator and gave the game a reason to be dark, quiet and slow — which is where the noir came from.
 
-It stands as a working prototype — one we may yet take further.
+Written in strict TypeScript on Three.js, no framework, and it runs in a browser tab without an install or an account.
+
+[Play it on Playgama](https://playgama.com/game/through-the-lens).

@@ -1,25 +1,27 @@
 ---
 title: "TTL"
-date: 2026-06-01
+date: 2026-08-26
 draft: false
 image: ../img/ttl.jpg
 tags: ['JavaScript', 'ThreeJS', 'WebGL', 'Game']
-description: "TTL (Through The Lens) ist ein Fehlersuchspiel in 3D, dessen Level algorithmisch aus einem Seed entstehen — ein theoretisch unendlicher Level-Pool, gebaut mit Three.js."
+description: "TTL (Through the Lens) ist ein Noir-Wimmelbildspiel in 3D — eine Linse über einem beleuchteten Diorama legt frei, was es verbirgt — und jede Szene entsteht algorithmisch aus einem Seed. Gebaut mit Three.js, veröffentlicht auf Playgama."
 ---
-**TTL — Through The Lens.** Fehlersuche in 3D: zwei Szenen, die sich drehen und zoomen lassen, und ein unendlicher Nachschub an Leveln aus einem Seed.
+**TTL — Through the Lens.** Ein Noir-Wimmelbildspiel in 3D: Man ist die Kamera an einem Fall, und die Linse zeigt, was jeder Raum verbirgt. Veröffentlicht auf [Playgama](https://playgama.com/game/through-the-lens).
 
 <!--more-->
 
 ![Eine TTL-Szene: ein toon-schattiertes Gewächshaus, durch die Linse gesehen](../../img/ttl.jpg#small)
 
-Zwei Szenen stehen nebeneinander — eine im Original, eine still verändert — und teilen sich eine Kamera: Drehen und Zoomen bewegt beide gleichzeitig. Wer einen Unterschied findet, hält ihn gedrückt, und er fügt sich zurück ins Bild.
+Jede Szene ist ein beleuchtetes Diorama zum Umkreisen — Gewächshaus, Bahnsteig, Detektivbüro, antiker Platz, Dachboden, ein Dach über einer schlafenden Stadt. Irgendetwas darin stimmt nicht. Gedrückt halten hebt eine Linse, die sich über die Szene ziehen lässt, und wo sie vorbeikommt, kommt aus dem Dunkel hoch, was der Raum verborgen hat. Bleibt sie auf dem Objekt liegen, das nicht dazugehört, wird es markiert. Sind alle gefunden, entsteht das Foto.
 
-Das Interessante daran: die Level baut niemand. Jedes Rätsel entsteht aus einem einzigen Seed — eine Grundszene wird verändert, ein Objekt umgefärbt, gedreht, verschoben oder entfernt, unter räumlichen Constraints und Verdeckungsprüfungen, die dafür sorgen, dass jeder Unterschied aus mindestens einem Blickwinkel auffindbar bleibt. Der Generator ist rein und unabhängig von der Render-Engine: dieselben Seeds laufen live im Browser oder werden vorab zu fertigen Leveln gebacken, die ohne Generator ausgeliefert werden.
+Die Linse läuft auf einer Ladung, die sich im geöffneten Zustand leert und im geschlossenen wieder füllt. Den ganzen Raum abzufahren und zu warten ist deshalb keine Strategie. Die Einschränkung ist das Spiel: Man muss sich entscheiden, wo man hinsieht.
 
 ![Das Detektivbüro, eine der handgebauten Umgebungen](../../img/ttl-2.jpg#small)
 
-Drumherum liegt das, was daraus ein Spiel macht: Dioramen-Wände, die beim Umkreisen ausblenden, weiche Schatten, ein Toon-Look und eine Reihe handgebauter Umgebungen — Gewächshaus, Bahnsteig, Detektivbüro, antiker Platz, Dachboden —, die der Generator als Rohmaterial nimmt. Geschrieben in striktem TypeScript auf Three.js.
+Was niemand sieht: die Level baut niemand. Jede Szene entsteht aus einem einzigen Seed — eine Grundumgebung wird verändert, ein Objekt umgefärbt, gedreht, verschoben oder entfernt, unter räumlichen Constraints und Verdeckungsprüfungen, die dafür sorgen, dass jede Änderung aus mindestens einem Blickwinkel auffindbar bleibt. Der Generator ist rein und unabhängig von der Render-Engine: dieselben Seeds laufen live im Browser oder werden vorab zu fertigen Leveln gebacken, die ganz ohne Generator ausgeliefert werden.
 
-Ein [News-Beitrag](/de/news/ttl/) erzählt mehr über den Generator.
+Angefangen hat es als **diff3d**, ein Prototyp, über den wir [im Juni geschrieben haben](/de/news/diff3d/): zwei Szenen nebeneinander unter einer gemeinsamen Kamera, das klassische Fehlersuch-Layout, mit dem Generator bereits darunter. Zwei Bildhälften zu vergleichen entpuppte sich allerdings eher als Arbeit denn als Spiel. Ersetzt durch eine einzelne Szene und eine Linse, blieb alles Interessante am Generator erhalten — und das Spiel bekam einen Grund, dunkel, still und langsam zu sein. Daher das Noir.
 
-Es steht als lauffähiger Prototyp — einer, den wir vielleicht noch weiterführen.
+Geschrieben in striktem TypeScript auf Three.js, ohne Framework, lauffähig im Browser-Tab, ohne Installation und ohne Konto.
+
+[Auf Playgama spielen](https://playgama.com/game/through-the-lens).

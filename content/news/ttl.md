@@ -1,22 +1,24 @@
 ---
-title: "TTL: a spot-the-difference game with infinite levels"
-date: 2026-06-01T11:00:00+02:00
+title: "TTL — Through the Lens is out"
+date: 2026-08-28T10:00:00+02:00
 draft: false
-description: "TTL is our prototype of a casual 3D spot-the-difference game where every level is generated algorithmically from a seed — a theoretically infinite puzzle pool, built with Three.js."
-image: ../img/ttl.jpg
+description: "Our noir hidden-object game TTL — Through the Lens is live on Playgama. Raise the lens, find what the room is hiding, and take the photograph."
+image: ../img/ttl-3.jpg
 tags: ['JavaScript', 'ThreeJS', 'Game', 'WebGL']
 ---
 
-We've been prototyping a casual 3D game we call **TTL** — Through The Lens: two side-by-side scenes you rotate and zoom to compare, then press and hold to "heal" each difference back into place until both scenes match.
+**TTL — Through the Lens** is live. It is our first game published to a portal, and it is playable now on [Playgama](https://playgama.com/game/through-the-lens).
 
 <!--more-->
 
-The interesting part is under the hood. Instead of hand-building levels, each puzzle is generated **algorithmically from a single seed** — a base scene is mutated (recolour, rotate, move, or remove a prop) under spatial and occlusion constraints. That makes the level pool theoretically infinite, while a pure, render-engine-agnostic generator lets us also bake levels offline for instant loading.
+![A rooftop at night under a low moon, the lens open over a water tower](../../img/ttl-3.jpg#small)
 
-![A TTL puzzle: two 3D scenes side by side](../../img/ttl.jpg#small)
+You are the camera on a case. Each scene is a lit diorama you can orbit — a greenhouse, a detective's study, a rooftop above a sleeping city — and something in it is wrong. Hold to raise the lens, drag it across the scene, and it shows you what the room was hiding. Rest it on the thing that doesn't belong and it tags. Find them all and you take the photograph.
 
-There are diorama-style "see-through" walls that fade away as you orbit, soft shadows, and a toon-shaded look across five hand-crafted environments — a greenhouse, a train station, a detective's study, an ancient plaza, and an attic. It's an experiment in procedural content and WebGL game feel, headed for casual web portals first.
+The lens runs on a charge that drains while it's open and refills while it's closed, so you can't simply sweep the room and wait. You have to decide where to look.
 
-<!-- Interested in WebGL, Three.js, or procedural generation? [Get in touch](mailto:info@curious-electric.com?subject=Project%20inquiry). -->
+Underneath it is the generator we [wrote about in June](/news/diff3d/): every scene is built from a single seed, with props recoloured, rotated, moved or removed under constraints that keep each one findable. The prototype was a side-by-side comparison game; the lens replaced it, and the game got considerably better for it.
 
-More about the game on its [project page](/projects/ttl/).
+Built in strict TypeScript on Three.js, and it runs in a browser tab — no install, no account.
+
+[Play it on Playgama](https://playgama.com/game/through-the-lens), or read how it was built on the [project page](/projects/ttl/).
