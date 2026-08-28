@@ -12,9 +12,7 @@ description: "TTL (Through the Lens) is a noir hidden-object game in 3D — rais
 
 ![A TTL scene: a toon-shaded greenhouse, seen through the lens](../../img/ttl.jpg#small)
 
-Each scene is a lit diorama you can orbit — a greenhouse, a train station, a detective's study, an ancient plaza, an attic, a rooftop above a sleeping city. Something in it is wrong. Holding down raises a lens you drag across the scene, and where it passes, what the room was hiding comes up out of the dark. Rest it on the object that doesn't belong and it tags. Find them all and you take the photograph.
-
-The lens runs on a charge that drains while it is open and refills while it is closed, so sweeping the whole room and waiting is not a strategy. The constraint is the game: you have to decide where to look.
+Each scene is a lit diorama you can orbit — a greenhouse, a train station, a detective's study, an ancient plaza, an attic, a rooftop above a sleeping city. Something in it is wrong. Holding down brings up a lens you drag across the scene, and where it passes, what the room was hiding comes up. Rest it on the object that doesn't belong and it tags. Clear the scene and the case moves on.
 
 ![A detective's study, one of the hand-built environments the generator works from](../../img/ttl-2.jpg#small)
 
@@ -22,6 +20,6 @@ The part nobody sees is that nobody builds the levels. Each scene is generated f
 
 It started as **diff3d**, a prototype we [wrote about in June](/news/diff3d/): two scenes side by side under a shared camera, the classic spot-the-difference layout, with the generator already underneath. Comparing two panels turned out to be work rather than play. Replacing them with a single scene and a lens kept everything interesting about the generator and gave the game a reason to be dark, quiet and slow — which is where the noir came from.
 
-Written in strict TypeScript on Three.js, no framework, and it runs in a browser tab without an install or an account.
+Built with Three.js, no framework, and it runs in a browser tab without an install or an account.
 
 [Play it on Playgama](https://playgama.com/game/through-the-lens).

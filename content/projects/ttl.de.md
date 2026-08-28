@@ -12,9 +12,7 @@ description: "TTL (Through the Lens) ist ein Noir-Wimmelbildspiel in 3D — eine
 
 ![Eine TTL-Szene: ein toon-schattiertes Gewächshaus, durch die Linse gesehen](../../img/ttl.jpg#small)
 
-Jede Szene ist ein beleuchtetes Diorama zum Umkreisen — Gewächshaus, Bahnsteig, Detektivbüro, antiker Platz, Dachboden, ein Dach über einer schlafenden Stadt. Irgendetwas darin stimmt nicht. Gedrückt halten hebt eine Linse, die sich über die Szene ziehen lässt, und wo sie vorbeikommt, kommt aus dem Dunkel hoch, was der Raum verborgen hat. Bleibt sie auf dem Objekt liegen, das nicht dazugehört, wird es markiert. Sind alle gefunden, entsteht das Foto.
-
-Die Linse läuft auf einer Ladung, die sich im geöffneten Zustand leert und im geschlossenen wieder füllt. Den ganzen Raum abzufahren und zu warten ist deshalb keine Strategie. Die Einschränkung ist das Spiel: Man muss sich entscheiden, wo man hinsieht.
+Jede Szene ist ein beleuchtetes Diorama zum Umkreisen — Gewächshaus, Bahnsteig, Detektivbüro, antiker Platz, Dachboden, ein Dach über einer schlafenden Stadt. Irgendetwas darin stimmt nicht. Gedrückt halten zeigt eine Linse, die sich über die Szene ziehen lässt, und wo sie vorbeikommt, kommt hoch, was der Raum verborgen hat. Bleibt sie auf dem Objekt liegen, das nicht dazugehört, wird es markiert. Ist die Szene sauber, geht der Fall weiter.
 
 ![Das Detektivbüro, eine der handgebauten Umgebungen](../../img/ttl-2.jpg#small)
 
@@ -22,6 +20,6 @@ Was niemand sieht: die Level baut niemand. Jede Szene entsteht aus einem einzige
 
 Angefangen hat es als **diff3d**, ein Prototyp, über den wir [im Juni geschrieben haben](/de/news/diff3d/): zwei Szenen nebeneinander unter einer gemeinsamen Kamera, das klassische Fehlersuch-Layout, mit dem Generator bereits darunter. Zwei Bildhälften zu vergleichen entpuppte sich allerdings eher als Arbeit denn als Spiel. Ersetzt durch eine einzelne Szene und eine Linse, blieb alles Interessante am Generator erhalten — und das Spiel bekam einen Grund, dunkel, still und langsam zu sein. Daher das Noir.
 
-Geschrieben in striktem TypeScript auf Three.js, ohne Framework, lauffähig im Browser-Tab, ohne Installation und ohne Konto.
+Gebaut mit Three.js, ohne Framework, lauffähig im Browser-Tab, ohne Installation und ohne Konto.
 
 [Auf Playgama spielen](https://playgama.com/game/through-the-lens).
