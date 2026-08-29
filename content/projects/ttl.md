@@ -14,6 +14,8 @@ description: "TTL (Through the Lens) is a noir hidden-object game in 3D — rais
 
 Each scene is a lit diorama you can orbit — a greenhouse, a train station, a detective's study, an ancient plaza, an attic, a rooftop above a sleeping city. Something in it is wrong. Holding down brings up a lens you drag across the scene, and where it passes, what the room was hiding comes up. Rest it on the object that doesn't belong and it tags. Clear the scene and the case moves on.
 
+{{< video src="ttl-teaser.mp4" poster="ttl-teaser-poster.jpg" label="Teaser: the lens sweeping across a scene and tagging what does not belong" >}}
+
 ![A detective's study, one of the hand-built environments the generator works from](../../img/ttl-2.jpg#small)
 
 The part nobody sees is that nobody builds the levels. Each scene is generated from a single seed: a base environment is mutated — a prop recoloured, rotated, moved or removed — under spatial and occlusion constraints that keep every change findable from at least one angle. The generator is pure and renderer-agnostic, so the same seeds either run live in the browser or get baked into pre-generated levels that ship without the generator at all.

@@ -268,3 +268,13 @@ main {
 #old-bot {
   transform: scaleX(-1);
 }
+
+/* Self-hosted teaser video — square social cut, sized like img[src$="#small"]
+   but a little larger since motion is the point. */
+video.teaser {
+  width: 360px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0;
+}

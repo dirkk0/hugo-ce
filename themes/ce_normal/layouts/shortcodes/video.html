@@ -1,0 +1,13 @@
+{{- /*
+  Self-hosted video. Mirrors the image render hook: content refers to a bare
+  filename and we resolve it to a baseURL-absolute /img/<file> so it works at
+  any page depth and under the /w/v1/ subpath.
+  Muted + playsinline so autoplay is allowed on mobile; controls stay on so a
+  reader can stop it.
+  Usage: {{< video src="x.mp4" poster="x.jpg" label="what it shows" >}}
+*/ -}}
+{{- $src := printf "img/%s" (.Get "src") | relURL -}}
+<video class="teaser" src="{{ $src }}"
+  {{- with .Get "poster" }} poster="{{ printf "img/%s" . | relURL }}"{{ end }}
+  {{- with .Get "label" }} aria-label="{{ . }}"{{ end }}
+  autoplay muted loop playsinline controls preload="metadata"></video>

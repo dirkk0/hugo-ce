@@ -15,6 +15,8 @@ tags: ['JavaScript', 'ThreeJS', 'Game', 'WebGL']
 
 Man ist die Kamera an einem Fall. Jede Szene ist ein beleuchtetes Diorama, das sich rotieren lässt — ein Gewächshaus, ein Detektivbüro, ein Dach über einer schlafenden Stadt — und irgendetwas darin stimmt nicht. Gedrückt halten zeigt eine Linse, ziehen bewegt sie über die Szene, und sie offenbart, was der Raum verborgen hat. Bleibt sie auf dem Objekt liegen, das anders ist, wird es markiert. Ist die Szene sauber, geht der Fall weiter.
 
+{{< video src="ttl-teaser.mp4" poster="ttl-teaser-poster.jpg" label="Teaser: die Linse fährt über eine Szene und markiert, was nicht dazugehört" >}}
+
 Darunter arbeitet der Generator, über den wir [im Juni geschrieben haben](/de/news/diff3d/): Jede Szene entsteht aus einem einzigen Seed, Objekte werden umgefärbt, gedreht, verschoben oder entfernt, unter Bedingungen, die jeden Fund auffindbar halten. Der Prototyp war ein Vergleichsspiel mit zwei Szenen; die Linse hat das ersetzt, und das Spiel ist dadurch deutlich besser geworden.
 
 Gebaut mit Three.js, lauffähig im Browser-Tab — ohne Installation, ohne Konto.

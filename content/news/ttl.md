@@ -15,6 +15,8 @@ tags: ['JavaScript', 'ThreeJS', 'Game', 'WebGL']
 
 You are the camera on a case. Each scene is a lit diorama you can rotate — a greenhouse, a detective's study, a rooftop above a sleeping city — and something in it is wrong. Hold to bring up a lens, drag it across the scene, and it reveals what the room was hiding. Rest it on the object that's different and it tags. Clear the scene and the case moves on.
 
+{{< video src="ttl-teaser.mp4" poster="ttl-teaser-poster.jpg" label="Teaser: the lens sweeping across a scene and tagging what does not belong" >}}
+
 Underneath it is the generator we [wrote about in June](/news/diff3d/): every scene is built from a single seed, with props recoloured, rotated, moved or removed under constraints that keep each one findable. The prototype was a side-by-side comparison game; the lens replaced it, and the game got considerably better for it.
 
 Built with Three.js, and it runs in a browser tab — no install, no account.
