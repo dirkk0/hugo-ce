@@ -28,6 +28,36 @@ Notes from the run:
   this pass is only about images inside the content bodies.
 - Verify with `hugo --buildDrafts` afterwards; Dirk does his own commits — leave it in the tree.
 
+## 2. `<article>` with no heading on section pages - QUEUED 2026-09-12
+
+`_default/list.html` wraps `{{ .Content }}` in `<article>`, but on section pages that content
+is empty, so the W3C validator reports "Article lacks heading. Consider using h2-h6 elements
+to add identifying headings to all articles." An accessibility hint, not a validity error.
+
+Fix direction: either drop the `<article>` when `.Content` is empty, or give it a heading.
+The `<h1>` on line 9 already sits outside the `<article>`, so the simplest fix is a
+conditional wrapper: only emit `<article>` when there is content.
+
+## 3. Trailing slash on void elements - QUEUED 2026-09-12
+
+Several pages emit `<meta ... />` / `<link ... />` style markup. The validator flags each as
+info: "Trailing slash on void elements has no effect and interacts badly with unquoted
+attribute values." Purely cosmetic, zero functional impact. Low value, do it only if touching
+those partials anyway.
+
+## 4. `push.sh` does not prune the server - QUEUED 2026-09-12
+
+`push.sh` does `rsync -r --delete --checksum public/ upload/` (local mirror, pruned) but the
+final `rsync -avztP -e "ssh" upload/ $CONF_PATH/w/v1/` has **no `--delete`**. So renamed or
+removed pages are cleaned locally and then linger on the server indefinitely.
+
+- The diff3d -> TTL rename (2026-08-19) may have left orphaned pages live. Check before fixing.
+- `DEPLOY.md` currently overstates this: it says `--cleanDestinationDir` stops stale pages
+  lingering on the server. It only cleans `public/`. That sentence needs correcting too.
+- Adding `--delete` to the remote rsync is the obvious fix, but it is destructive against a
+  live server and the target is a shared path. **Confirm with Dirk before adding it** - this
+  queue item is to investigate and report, not to add `--delete` unattended.
+
 ## Related consistency drift found 2026-08-19 (NOT queued — Dirk has not approved these)
 
 - Closing-link sections vary: `Project Page:` / `Project page:` / `More information:` / inline

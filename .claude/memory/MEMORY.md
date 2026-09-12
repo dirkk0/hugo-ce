@@ -3,3 +3,5 @@
 - [Diff3d renamed ttl](diff3d-renamed-ttl.md) — The game formerly published as "diff3d" is now TTL (Through The Lens) — renamed across the site on 2026-08-19
 - [Queued autonomous work](queued-autonomous-work.md) — Work Dirk approved for hugo-ce but wants run while he is away — run only when he signals he is stepping out
 - [Seo review 2026 07 15](seo_review_2026-07-15.md) — Findings and decisions from an SEO review of the rendered site on 2026-07-15
+- [W3C validation 2026-09-12](w3c_validation_2026-09-12.md) - three template bugs found and fixed; how to validate without hitting the rate limit
+- [hugo-ce priorities](project_hugo_ce_priorities.md) - home page error-free + SEO is what matters; everything else improves slowly

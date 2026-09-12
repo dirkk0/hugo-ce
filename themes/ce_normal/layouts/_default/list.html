@@ -40,10 +40,10 @@
         <!-- <a href="{{ .RelPermalink }}"> aaa {{ .Title | markdownify }}</a> -->
         <a href="{{ .Permalink }}"> {{ .Title | markdownify }}</a>
         <!-- {{ if .Params.abstract }}{{ .Params.abstract }}{{ end }} -->
-        <p>
-          <!-- {{ .Params.abstract }} -->
-          {{ safeHTML .Summary }}
-        </p>
+        <!-- {{ .Params.abstract }} -->
+        <!-- .Summary already emits its own <p>; do not wrap it. A <p> inside a <p> is
+             invalid and leaves a stray closing tag (W3C, 2026-09-12). -->
+        {{ safeHTML .Summary }}
         <div class="date">{{ .Date.Format "2006/01" }}</div>
       </div>
     </li>
@@ -58,8 +58,9 @@
        Prefer the hand-written front-matter description; fall back to the post's summary. -->
   <ul class="news-list">
     {{ range .Data.Pages }}
-    <hr>
     <li>
+      <!-- <hr> must be inside the <li>: <ul> may only have <li> children. -->
+      <hr>
       <span class="news-date">{{ .Date.Format "2006/01/02" }}</span>
       <a href="{{ .RelPermalink }}" class="news-title">{{ .Title | markdownify }}</a>
       <p class="news-summary">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 220 }}{{ end }}</p>
@@ -72,8 +73,9 @@
 
   <ul class="news-list">
     {{ range .Data.Pages }}
-    <hr>
     <li>
+      <!-- <hr> must be inside the <li>: <ul> may only have <li> children. -->
+      <hr>
       <!-- <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a> -->
       {{ .Content }}
 

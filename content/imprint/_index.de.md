@@ -1,24 +1,27 @@
 # Impressum
 
+Angaben gemäß § 5 DDG
+
     Curious Electric GmbH
     Rhodiusstr. 11
-    51065 Cologne
-    Germany
+    51065 Köln
+    Deutschland
 
     +49 221 7393101
     dirkk@curious-electric.com
 
-    Geschaeftsfuehrer:
-    Dirk Krause
-    Inhaltlich Verantwortliche gemaess TMG und Paragraph 55 Abs. 2 RStV:
-    Curious Electric GmbH (Anschrift wie oben)
-    Haftungshinweis:
-    Trotz sorgfaeltiger inhaltlicher Kontrolle uebernehmen wir keine Haftung fuer die Inhalte externer Links.
-    Fuer den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich.
+    Geschäftsführer: Dirk Krause
+
+    Registergericht: Amtsgericht Köln
+    Handelsregisternummer: HRB 90678
+    Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE313083071
 
 # Datenschutz
 
-Keine Cookies und keine persönliche Nachverfolgung. Für Besucherstatistiken nutzen wir [GoatCounter](https://www.goatcounter.com) – quelloffen, ohne Cookies, datenschutzorientiert, anonym und aggregiert.
+Keine Cookies und keine persönliche Nachverfolgung. Besucherstatistiken erhebt ein
+selbst gehosteter Zähler auf dieser Domain. Er speichert weder die IP-Adresse noch den
+User-Agent; Besuche werden für einen Tag über einen täglich wechselnden, gesalzenen
+Hashwert entdoppelt und lassen sich daher keiner Person zuordnen.
 
 # Kontakt
 

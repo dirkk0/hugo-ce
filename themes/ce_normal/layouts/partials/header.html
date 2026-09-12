@@ -23,7 +23,6 @@
        ad/tracker blockers leave it alone — unlike the old GoatCounter beacon,
        whose gc.zgo.at script was blocked client-side (503) → ~zero counts. -->
   <script>(function(){new Image().src="{{ "hit.php" | relURL }}?p={{ .RelPermalink }}&r="+encodeURIComponent(document.referrer||"");})();</script>
-  <noscript><img src="{{ "hit.php" | relURL }}?p={{ .RelPermalink }}" alt="" width="1" height="1" style="position:absolute;left:-9999px"></noscript>
 <!-- GoatCounter (disabled — beacon blocked as a 3rd-party tracker; using self-hosted hit.php instead)
   <script data-goatcounter="https://curious-electric.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 -->
@@ -35,6 +34,10 @@
 </head>
 
 <body>
+  <!-- noscript fallback for the analytics pixel. Must live in <body>: a <noscript>
+       inside <head> may only contain <link>, <style> and <meta>, so an <img> here
+       aborts the head and invalidates the whole document (W3C, 2026-09-12). -->
+  <noscript><img src="{{ "hit.php" | relURL }}?p={{ .RelPermalink }}" alt="" width="1" height="1" style="position:absolute;left:-9999px"></noscript>
   <!-- {{ trim .Page.RelPermalink "/"}} ,
   {{ .RelPermalink}} , 
   {{ eq "/about/" "==" .RelPermalink}} , 
