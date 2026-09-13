@@ -1,19 +1,21 @@
 ---
 name: analytics-setup
-description: Site analytics — self-hosted first-party PHP pixel replaced GoatCounter; open follow-ups
-metadata: 
+description: Site analytics: self-hosted page-view counter (zaehler.php), page views only, nothing about visitors stored
+metadata:
   node_type: memory
   type: project
   originSessionId: 7d2d4896-901f-493b-a1be-d14da939b7bb
 ---
 
-**Canonical source:** this is the origin of the reusable counter now kept at `GitHub/pens3/hit-counter/` (files + porting checklist). Also deployed to `mixxape` (mixxape.cloudriver.org). Copy from pens3 for the next site.
+Self-hosted first-party counter. `static/zaehler.php` logs time, path and referring domain to `static/_private/hits.log`; `static/stats.php` is the basic-auth dashboard, password in gitignored `static/_private/secrets.php`. **Page views only since 2026-09-13**: no IP, no browser string, no hash, no salt. Same code as `hugos2/folgend.es`, where it was reworked.
 
-GoatCounter showed ~zero hits because its `gc.zgo.at` beacon is on tracker blocklists and was blocked client-side (503) — confirmed by browser network trace. Replaced (2026-06-06) with a self-hosted **first-party PHP pixel**: `static/hit.php` (logs to `static/_private/hits.log`, flat file, daily-salted visitor hash, no raw IP) + `static/stats.php` (basic-auth dashboard). GoatCounter left commented in `header.html`/`header-home.html`. Live and confirmed working (GIF served, stats behind login, log returns 403).
+Replaced GoatCounter (2026-06-06), whose `gc.zgo.at` beacon was blocked as a 3rd-party tracker. First-party alone does not escape blockers, though: their lists match URL patterns, and the original name `hit.php` was blocked same-origin. Hence `zaehler.php`. `static/hit.php` is now a stub that requires zaehler.php, so the deploy overwrites the old hashing file on the server; remove it once cached pages have aged out.
 
-Host is **IONOS** (`/www/htdocs/w00e8ff9/`), was stuck on **PHP 5.x** — so the PHP is written 5.3-compatible (no `??`/arrow-fn/short-array, `define()` not `const`, `hash_equals` polyfill).
+Host is **ALL-INKL** (kasserver.com), not IONOS as previously noted. PHP 7.4, 8.2, 8.3 and 8.4 CLIs exist on the host, so lint there with `php -l` before deploying. The code stays PHP 5.3-compatible regardless.
 
-**Open follow-ups (user revisiting ~2026-06-13):** (1) check the real visitor counts after a week of data; (2) bump host PHP to 8.x in the IONOS panel (security; analytics already works either way); (3) optional "skip my own visits" toggle. Deploy stays no-`--delete` rsync (`push.sh`) so `hits.log` survives; user sweeps stale pages manually via FileZilla rather than risk `--delete` on live.
+`GitHub/pens3/hit-counter/` and the `mixxape` deployment still carry the OLD hashing counter. Copy from here or folgend.es, not from pens3.
 
-**Why:** captures the diagnosis + the non-obvious host/PHP constraint so it isn't re-derived next session.
-**How to apply:** when the user returns to analytics, start from stats.php counts and the PHP-bump item.
+Deploy stays no-`--delete` rsync so `hits.log` survives; `push.sh` pulls a log copy into gitignored `backups/` before uploading.
+
+**Why:** the host and PHP facts and the blocked-by-filename finding are non-obvious, and this note had the host and PHP version wrong before.
+**How to apply:** start from these facts when touching analytics. Once `_private/log-format-v2` exists on the server, the one-time migration block in zaehler.php can be deleted.

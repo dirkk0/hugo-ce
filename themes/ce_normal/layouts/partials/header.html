@@ -18,12 +18,21 @@
   <noscript><img src=https://nullitics.com/ce-t.gif></noscript>
   -->
 
-  <!-- privacy-first analytics: self-hosted first-party pixel (see static/hit.php).
-       Served first-party from our own domain and not a known tracker host, so
-       ad/tracker blockers leave it alone — unlike the old GoatCounter beacon,
-       whose gc.zgo.at script was blocked client-side (503) → ~zero counts. -->
-  <script>(function(){new Image().src="{{ "hit.php" | relURL }}?p={{ .RelPermalink }}&r="+encodeURIComponent(document.referrer||"");})();</script>
-<!-- GoatCounter (disabled — beacon blocked as a 3rd-party tracker; using self-hosted hit.php instead)
+  {{- /* Self-hosted page-view counter, see static/zaehler.php. Counts page views
+         only and stores nothing about visitors: no IP, no browser string, no
+         hash. Production builds only, so `hugo server` does not fire requests at
+         a PHP endpoint the dev server cannot run.
+
+         First-party is not enough to escape blockers: their lists match URL
+         patterns, and the old name hit.php was blocked same-origin. Keep the
+         endpoint name off the English tracker vocabulary.
+
+         ?nostats=1 on any page stops counting that browser (localStorage, no
+         cookie), ?nostats=0 undoes it, and /stats.php shows the state. */ -}}
+  {{ if hugo.IsProduction }}
+  <script>(function(){try{var k="ce-nostats",q=location.search;if(q.indexOf("nostats=1")>-1){localStorage.setItem(k,"1")}else if(q.indexOf("nostats=0")>-1){localStorage.removeItem(k)}if(localStorage.getItem(k)){return}}catch(e){}new Image().src="{{ "zaehler.php" | relURL }}?p={{ .RelPermalink }}&r="+encodeURIComponent(document.referrer||"");})();</script>
+  {{ end }}
+<!-- GoatCounter (disabled — beacon blocked as a 3rd-party tracker; replaced by the self-hosted counter)
   <script data-goatcounter="https://curious-electric.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 -->
 
@@ -37,7 +46,7 @@
   <!-- noscript fallback for the analytics pixel. Must live in <body>: a <noscript>
        inside <head> may only contain <link>, <style> and <meta>, so an <img> here
        aborts the head and invalidates the whole document (W3C, 2026-09-12). -->
-  <noscript><img src="{{ "hit.php" | relURL }}?p={{ .RelPermalink }}" alt="" width="1" height="1" style="position:absolute;left:-9999px"></noscript>
+  {{ if hugo.IsProduction }}<noscript><img src="{{ "zaehler.php" | relURL }}?p={{ .RelPermalink }}" alt="" width="1" height="1" style="position:absolute;left:-9999px"></noscript>{{ end }}
   <!-- {{ trim .Page.RelPermalink "/"}} ,
   {{ .RelPermalink}} , 
   {{ eq "/about/" "==" .RelPermalink}} , 

@@ -1,6 +1,6 @@
 # imprint
 
-Angaben gemäß § 5 DDG
+Information pursuant to § 5 DDG (German Digital Services Act)
 
     Curious Electric GmbH
     Rhodiusstr. 11
@@ -18,9 +18,9 @@ Angaben gemäß § 5 DDG
 
 # privacy
 
-No cookies, and no personal tracking. Visitor statistics come from a self-hosted counter on
-this domain. It stores no raw IP address and no user agent; visits are de-duplicated for a
-single day using a salted hash that rotates daily, so they cannot be tied back to a person.
+No cookies, and no personal tracking. A self-hosted counter on this domain counts page
+views, storing only the time, the page and the domain of the referring site, nothing
+about visitors.
 
 <!-- We run a little JavaScript (for the analytics above and small touches like the animated bot), but nothing that profiles you. -->
 

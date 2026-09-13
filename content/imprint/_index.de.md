@@ -18,10 +18,9 @@ Angaben gemäß § 5 DDG
 
 # Datenschutz
 
-Keine Cookies und keine persönliche Nachverfolgung. Besucherstatistiken erhebt ein
-selbst gehosteter Zähler auf dieser Domain. Er speichert weder die IP-Adresse noch den
-User-Agent; Besuche werden für einen Tag über einen täglich wechselnden, gesalzenen
-Hashwert entdoppelt und lassen sich daher keiner Person zuordnen.
+Keine Cookies und keine persönliche Nachverfolgung. Ein selbst gehosteter Zähler auf
+dieser Domain zählt Seitenaufrufe und speichert dabei nur Zeitpunkt, aufgerufene Seite
+und die Domain der verweisenden Seite, nichts über Besucherinnen und Besucher.
 
 # Kontakt
 

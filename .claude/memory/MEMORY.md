@@ -1,5 +1,5 @@
 - [Curious Electric site SEO](project_hugo_ce_seo.md) — hugo-ce: lives at /w/v1 subpath (root 302s), absolute baseurl required, head-seo partial + JSON-LD + bilingual en/de; deploy via push.sh, public/ untracked
-- [Analytics setup](analytics-setup.md) — self-hosted first-party PHP pixel replaced GoatCounter; PHP-bump + count-check pending ~2026-06-13
+- [Analytics setup](analytics-setup.md) - page-view counter zaehler.php, nothing about visitors stored; host ALL-INKL; pens3 copy outdated
 - [Diff3d renamed ttl](diff3d-renamed-ttl.md) — The game formerly published as "diff3d" is now TTL (Through The Lens) — renamed across the site on 2026-08-19
 - [Queued autonomous work](queued-autonomous-work.md) — Work Dirk approved for hugo-ce but wants run while he is away — run only when he signals he is stepping out
 - [Seo review 2026 07 15](seo_review_2026-07-15.md) — Findings and decisions from an SEO review of the rendered site on 2026-07-15

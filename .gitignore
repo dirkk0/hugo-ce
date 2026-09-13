@@ -132,3 +132,6 @@ _bak/
 
 
 *DS_Store
+# Dashboard password, and log copies pulled by push.sh.
+/static/_private/secrets.php
+/backups/
